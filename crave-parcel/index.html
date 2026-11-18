@@ -1,0 +1,2507 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="meta-title">Crave Parcel | Jual Hampers Lebaran, Parcel Perusahaan & Custom Hampers Mewah</title>
+  <link rel="icon" type="image/jpeg" href="https://i.ibb.co.com/JwhjzbCz/Whats-App-Image-2026-11-11-at-11-07-24.jpg">
+  <meta id="meta-desc" name="description" content="Crave Parcel menyediakan koleksi parcel dan hampers premium untuk Lebaran, Natal, Imlek, dan Corporate Gift. Tersedia fitur Custom Hamper Builder & pengiriman multi-alamat ke seluruh Indonesia." />
+  <meta name="keywords" content="Jual Hampers Lebaran, Parcel Perusahaan, Custom Hampers, Hampers Natal Premium, Corporate Gift Indonesia, Crave Parcel" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          },
+          colors: {
+            luxury: {
+              cream: 'var(--bg-cream, #FAF7F2)',
+              sand: 'var(--bg-sand, #F2ECE1)',
+              primary: 'var(--color-primary, #132A22)',
+              primaryDark: 'var(--color-primary-dark, #0B1914)',
+              gold: 'var(--color-gold, #C5A059)',
+              goldLight: 'var(--color-gold-light, #E5C98B)',
+              charcoal: '#1E201F'
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    :root {
+      --bg-cream: #FAF7F2;
+      --bg-sand: #F2ECE1;
+      --color-primary: #132A22;
+      --color-primary-dark: #0B1914;
+      --color-gold: #C5A059;
+      --color-gold-light: #E5C98B;
+    }
+    body.theme-lebaran {
+      --bg-cream: #F8FAF7;
+      --bg-sand: #EBF2EC;
+      --color-primary: #0F3D2E;
+      --color-primary-dark: #08241B;
+      --color-gold: #D4AF37;
+      --color-gold-light: #F3DF9B;
+    }
+    body.theme-natal {
+      --bg-cream: #FCF8F8;
+      --bg-sand: #F5EAEB;
+      --color-primary: #5B1622;
+      --color-primary-dark: #380B13;
+      --color-gold: #C89D54;
+      --color-gold-light: #EAD19E;
+    }
+    body.theme-imlek {
+      --bg-cream: #FDF8F5;
+      --bg-sand: #F8ECE6;
+      --color-primary: #7A1414;
+      --color-primary-dark: #4A0909;
+      --color-gold: #E0A938;
+      --color-gold-light: #F9DC98;
+    }
+
+    .glass-nav {
+      background: rgba(250, 247, 242, 0.92);
+      backdrop-filter: blur(12px);
+    }
+    .gold-gradient {
+      background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 50%, var(--color-gold) 100%);
+    }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    @keyframes pulseSoft {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+    .sync-pulse { animation: pulseSoft 1.5s infinite; }
+  </style>
+</head>
+<body class="bg-luxury-cream text-luxury-charcoal font-sans antialiased selection:bg-luxury-gold selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div id="event-banner" class="bg-luxury-primary text-white text-xs sm:text-sm py-2.5 px-4 text-center tracking-wide border-b border-luxury-gold/30">
+    <span id="event-banner-text" class="font-medium">✨ Early Bird Season: Gratis Kartu Ucapan Kaligrafi Emas & Custom Pita Logo Perusahaan untuk Pemesanan Minggu Ini</span>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-luxury-gold/20 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group shrink-0">
+        <div id="brand-logo-wrapper" class="w-11 h-11 rounded-full bg-luxury-primary border border-luxury-gold flex items-center justify-center overflow-hidden shadow-sm">
+          <img id="brand-logo-img" src="" alt="Crave Parcel Logo" class="w-full h-full object-cover hidden" />
+          <span id="brand-logo-fallback" class="font-serif text-luxury-gold text-xl font-bold tracking-wider">CP</span>
+        </div>
+        <div>
+          <span class="font-serif text-2xl font-bold text-luxury-primary tracking-tight block leading-none">Crave Parcel</span>
+          <span class="text-[10px] uppercase tracking-[0.22em] text-luxury-gold font-semibold">Luxury Gifting Atelier</span>
+        </div>
+      </a>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-luxury-charcoal/85">
+        <a href="#katalog" class="hover:text-luxury-primary transition">Katalog Hampers</a>
+        <a href="#custom-builder" class="hover:text-luxury-primary transition flex items-center gap-1.5">
+          Rakit Sendiri
+          <span class="text-[10px] px-2 py-0.5 rounded-full bg-luxury-gold/20 text-luxury-primary font-bold">3 Langkah</span>
+        </a>
+        <a href="#corporate" class="hover:text-luxury-primary transition">Corporate & B2B</a>
+        <button onclick="openTrackingModal()" class="hover:text-luxury-primary transition flex items-center gap-1.5 font-semibold text-luxury-primary">
+          <svg class="w-4 h-4 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          Lacak Pesanan
+        </button>
+      </nav>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-2.5 sm:gap-3">
+        <button onclick="openTrackingModal()" class="lg:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-full border border-luxury-gold/40 bg-white text-xs font-semibold text-luxury-primary hover:bg-luxury-sand transition" title="Lacak Pesanan">
+          <svg class="w-3.5 h-3.5 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <span>Lacak</span>
+        </button>
+
+        <button onclick="openCart()" class="relative inline-flex items-center gap-2 px-3.5 sm:px-4 py-2.5 rounded-full bg-luxury-primary text-white text-xs sm:text-sm font-semibold hover:bg-luxury-primaryDark transition shadow-sm">
+          <svg class="w-4 h-4 text-luxury-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="hidden sm:inline">Keranjang</span>
+          <span id="cart-badge" class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 text-[11px] font-bold rounded-full bg-luxury-gold text-luxury-primary">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden pt-10 pb-16 lg:pt-16 lg:pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <!-- Left Copy -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-luxury-sand border border-luxury-gold/30 text-xs font-semibold text-luxury-primary tracking-wide">
+            <span class="w-2 h-2 rounded-full bg-luxury-gold"></span>
+            <span id="hero-badge-text">Kurasi Bingkisan Premium Indonesia</span>
+          </div>
+
+          <h1 id="hero-title" class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-luxury-primary leading-[1.12]">
+            Sampaikan Rasa Hormat & Kehangatan Lewat Bingkisan yang Tak Terlupakan
+          </h1>
+
+          <p id="hero-subtitle" class="text-base sm:text-lg text-luxury-charcoal/80 leading-relaxed max-w-2xl">
+            Bukan sekadar parcel biasa. Setiap kotak Crave Parcel dirangkai dengan kurasi artisan gourmet, kemasan eksklusif berlapis emas, dan kartu ucapan personal—siap dipesan satuan maupun ratusan paket korporat dalam hitungan menit.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-3.5 pt-2">
+            <a id="hero-cta1-text" href="#katalog" class="inline-flex items-center justify-center px-7 py-4 rounded-xl bg-luxury-primary text-white font-semibold text-sm sm:text-base hover:bg-luxury-primaryDark transition shadow-lg shadow-luxury-primary/20">
+              Jelajahi Katalog Hampers
+            </a>
+            <a id="hero-cta2-text" href="#corporate" class="inline-flex items-center justify-center px-7 py-4 rounded-xl bg-white border-2 border-luxury-gold text-luxury-primary font-semibold text-sm sm:text-base hover:bg-luxury-sand transition">
+              Pesan Custom / Corporate
+            </a>
+          </div>
+
+          <div class="pt-4 flex flex-wrap items-center gap-6 text-xs sm:text-sm text-luxury-charcoal/70 border-t border-luxury-gold/20">
+            <div class="flex items-center gap-2">
+              <span class="text-luxury-gold font-bold text-base">★★★★★</span>
+              <span>4.9/5 dari 1.400+ Pengiriman Klien</span>
+            </div>
+            <div class="hidden sm:block text-luxury-gold/50">•</div>
+            <div>Mendukung Pengiriman Multi-Alamat Seluruh Indonesia</div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md">
+            <div class="absolute -inset-3 rounded-[2rem] border border-luxury-gold/40 rotate-2 pointer-events-none"></div>
+            <div class="relative rounded-[1.75rem] overflow-hidden shadow-2xl bg-luxury-primary aspect-[4/5]">
+              <img id="hero-main-img" src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1000&q=85" alt="Hampers Mewah Crave Parcel" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent"></div>
+              <div class="absolute bottom-5 left-5 right-5 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-luxury-gold/30 shadow-lg">
+                <div class="flex items-center justify-between gap-3">
+                  <div>
+                    <span class="text-[10px] uppercase tracking-widest font-bold text-luxury-gold block">Signature Edition</span>
+                    <p id="hero-featured-title" class="font-serif text-lg font-bold text-luxury-primary">The Royal Emerald Chest</p>
+                    <p id="hero-featured-price" class="text-xs text-luxury-charcoal/75 font-semibold">Mulai Rp 685.000 • Free Gold Foil Card</p>
+                  </div>
+                  <a href="#katalog" class="px-3.5 py-2 rounded-xl bg-luxury-primary text-white text-xs font-semibold hover:bg-luxury-primaryDark transition shrink-0">
+                    Lihat
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST SIGNALS BAR -->
+  <section class="py-8 bg-luxury-sand/70 border-y border-luxury-gold/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="trust-signals-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- KATALOG PRODUK INTERAKTIF -->
+  <section id="katalog" class="py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-10 space-y-3">
+        <span class="text-xs uppercase tracking-[0.25em] font-bold text-luxury-gold">Kurasi Koleksi Eksklusif</span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-luxury-primary">Katalog Hampers & Parcel Premium</h2>
+        <p class="text-sm sm:text-base text-luxury-charcoal/75">Pilih koleksi siap kirim sesuai momen spesial Anda. Setiap paket dapat dilengkapi kartu ucapan personal dan dijadwalkan pengirimannya.</p>
+      </div>
+
+      <!-- Filter Kategori & Rentang Harga -->
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-luxury-gold/25 shadow-sm mb-8 space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <!-- Category Tabs -->
+          <div id="category-tabs" class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
+            <button onclick="setCategoryFilter('Semua')" data-cat="Semua" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-primary text-white whitespace-nowrap transition">Semua Koleksi</button>
+            <button onclick="setCategoryFilter('Lebaran')" data-cat="Lebaran" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition">Lebaran / Idul Fitri</button>
+            <button onclick="setCategoryFilter('Natal')" data-cat="Natal" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition">Natal & Tahun Baru</button>
+            <button onclick="setCategoryFilter('Imlek')" data-cat="Imlek" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition">Imlek / CNY</button>
+            <button onclick="setCategoryFilter('Corporate')" data-cat="Corporate" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition">Corporate Gift</button>
+            <button onclick="setCategoryFilter('Perayaan')" data-cat="Perayaan" class="cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition">Ulang Tahun & Pernikahan</button>
+          </div>
+
+          <!-- Price Filter -->
+          <div class="flex items-center gap-2 shrink-0">
+            <label for="price-filter" class="text-xs font-semibold text-luxury-charcoal/70 whitespace-nowrap">Rentang Harga:</label>
+            <select id="price-filter" onchange="renderCatalog()" class="px-3.5 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm font-semibold text-luxury-primary focus:outline-none focus:border-luxury-gold">
+              <option value="all">Semua Harga</option>
+              <option value="under350">Budget-Friendly (&lt; Rp 350rb)</option>
+              <option value="350to750">Executive (Rp 350rb – 750rb)</option>
+              <option value="above750">VIP & Royal (&gt; Rp 750rb)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Grid -->
+      <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE CUSTOM HAMPER BUILDER (3 LANGKAH) -->
+  <section id="custom-builder" class="py-16 lg:py-24 bg-luxury-primary text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <span class="text-xs uppercase tracking-[0.25em] font-bold text-luxury-gold">Bespoke Gifting Experience</span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Rakit Hampers Impian Anda Sendiri</h2>
+        <p class="text-sm sm:text-base text-white/80">Sesuaikan wadah kemasan, kurasi isian favorit, dan tulis kartu ucapan personal dengan kalkulasi harga otomatis secara real-time.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-8 items-start">
+        <!-- Steps 1, 2, 3 -->
+        <div class="lg:col-span-8 space-y-8">
+          <!-- Step 1: Pilih Wadah -->
+          <div class="bg-white/5 border border-luxury-gold/30 rounded-2xl p-5 sm:p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full bg-luxury-gold text-luxury-primary font-bold text-sm flex items-center justify-center">1</span>
+              <h3 class="font-serif text-2xl font-bold">Pilih Wadah & Kemasan Eksklusif</h3>
+            </div>
+            <div id="builder-boxes-grid" class="grid sm:grid-cols-3 gap-4">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Step 2: Pilih Isi Produk -->
+          <div class="bg-white/5 border border-luxury-gold/30 rounded-2xl p-5 sm:p-6">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+              <div class="flex items-center gap-3">
+                <span class="w-8 h-8 rounded-full bg-luxury-gold text-luxury-primary font-bold text-sm flex items-center justify-center">2</span>
+                <h3 class="font-serif text-2xl font-bold">Pilih Isi Produk Artisan</h3>
+              </div>
+              <span id="builder-capacity-label" class="text-xs px-3 py-1 rounded-full bg-luxury-gold/20 text-luxury-goldLight font-semibold">Terpilih: 0 / 5 Slot</span>
+            </div>
+            <div id="builder-items-grid" class="grid sm:grid-cols-2 gap-3.5">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Step 3: Tulis Kartu Ucapan -->
+          <div class="bg-white/5 border border-luxury-gold/30 rounded-2xl p-5 sm:p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-8 h-8 rounded-full bg-luxury-gold text-luxury-primary font-bold text-sm flex items-center justify-center">3</span>
+              <h3 class="font-serif text-2xl font-bold">Personalisasi Kartu Ucapan (Gratis)</h3>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label class="block text-xs text-white/75 mb-1">Untuk (Penerima)</label>
+                <input id="builder-card-to" type="text" oninput="updateBuilderSummary()" placeholder="Contoh: Bpk. Hendra & Keluarga" class="w-full px-3.5 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/40 text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+              <div>
+                <label class="block text-xs text-white/75 mb-1">Dari (Pengirim / Perusahaan)</label>
+                <input id="builder-card-from" type="text" oninput="updateBuilderSummary()" placeholder="Contoh: Keluarga Besar Wijaya" class="w-full px-3.5 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/40 text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs text-white/75 mb-1">Isi Pesan Kartu Ucapan</label>
+              <textarea id="builder-card-msg" rows="2" oninput="updateBuilderSummary()" placeholder="Selamat merayakan hari penuh berkah & kebahagiaan..." class="w-full px-3.5 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/40 text-sm focus:outline-none focus:border-luxury-gold"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sticky Summary & Live Card Preview -->
+        <div class="lg:col-span-4 lg:sticky lg:top-24 bg-luxury-cream text-luxury-charcoal rounded-2xl p-6 shadow-2xl border-2 border-luxury-gold">
+          <span class="text-[11px] uppercase tracking-widest font-bold text-luxury-gold">Ringkasan Rakitan Anda</span>
+          <h3 class="font-serif text-2xl font-bold text-luxury-primary mt-1 mb-4">Custom Luxury Hamper</h3>
+
+          <div class="space-y-2.5 text-sm border-b border-luxury-gold/25 pb-4 mb-4">
+            <div class="flex justify-between">
+              <span class="text-luxury-charcoal/70">Wadah:</span>
+              <span id="summary-box-name" class="font-semibold text-luxury-primary text-right">-</span>
+            </div>
+            <div>
+              <span class="text-luxury-charcoal/70 block mb-1">Isi Pilihan:</span>
+              <ul id="summary-items-list" class="space-y-1 text-xs text-luxury-charcoal/85 pl-3 list-disc">
+                <li class="italic text-luxury-charcoal/50">Belum ada produk dipilih</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Live Greeting Card Mini Preview -->
+          <div class="p-3.5 rounded-xl bg-luxury-sand/80 border border-luxury-gold/40 mb-5">
+            <p class="text-[10px] uppercase tracking-widest text-luxury-gold font-bold mb-1">Pratinjau Kartu Ucapan</p>
+            <p class="text-xs font-semibold text-luxury-primary">Kepada: <span id="preview-card-to" class="font-normal">Penerima</span></p>
+            <p id="preview-card-msg" class="text-xs italic text-luxury-charcoal/80 my-1.5">"Semoga bingkisan ini membawa kehangatan dan kebahagiaan."</p>
+            <p class="text-xs font-semibold text-luxury-primary text-right">— <span id="preview-card-from" class="font-normal">Pengirim</span></p>
+          </div>
+
+          <div class="flex items-baseline justify-between mb-5">
+            <span class="text-sm font-semibold text-luxury-charcoal/75">Estimasi Total:</span>
+            <span id="builder-total-price" class="font-serif text-3xl font-bold text-luxury-primary">Rp 0</span>
+          </div>
+
+          <button onclick="addCustomHamperToCart()" class="w-full py-3.5 px-5 rounded-xl bg-luxury-primary text-white font-semibold text-sm hover:bg-luxury-primaryDark transition shadow-lg">
+            + Masukkan Rakitan ke Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPORATE & B2B SECTION -->
+  <section id="corporate" class="py-16 lg:py-24 bg-luxury-sand/60 border-t border-luxury-gold/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-6 space-y-5">
+          <span class="text-xs uppercase tracking-[0.25em] font-bold text-luxury-gold">Corporate & VIP Gifting</span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-luxury-primary leading-tight">
+            Solusi Bingkisan Perusahaan Skala Besar Tanpa Repot
+          </h2>
+          <p class="text-sm sm:text-base text-luxury-charcoal/80 leading-relaxed">
+            Dipercaya puluhan perusahaan nasional untuk pengiriman bingkisan klien VIP, direksi, dan karyawan. Dapatkan harga khusus grosir mulai dari 20 paket, lengkap dengan cetak logo perusahaan pada pita, kartu ucapan, maupun hangtag eksklusif.
+          </p>
+          <ul class="space-y-3 text-sm text-luxury-charcoal/85 pt-2">
+            <li class="flex items-start gap-2.5">
+              <span class="text-luxury-gold font-bold">✓</span>
+              <span><strong>Custom Branding Perusahaan:</strong> Logo emboss/gold foil pada pita, kartu ucapan, dan sleeve box.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-luxury-gold font-bold">✓</span>
+              <span><strong>Pengiriman Multi-Alamat Terjadwal:</strong> Kirim langsung ke ratusan alamat rumah klien/relasi dengan laporan resi terpusat.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-luxury-gold font-bold">✓</span>
+              <span><strong>Dokumen Lengkap B2B:</strong> Tersedia penawaran resmi (Quotation), Invoice perusahaan, dan Faktur Pajak.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Corporate Request Quotation Form -->
+        <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-3xl border border-luxury-gold/30 shadow-xl">
+          <h3 class="font-serif text-2xl font-bold text-luxury-primary mb-1">Minta Penawaran Resmi (Request Quotation)</h3>
+          <p class="text-xs text-luxury-charcoal/65 mb-6">Tim Corporate Concierge kami akan mengirimkan proposal & harga khusus dalam &lt; 30 menit.</p>
+
+          <form onsubmit="submitCorporateQuote(event)" class="space-y-4">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Nama PIC *</label>
+                <input id="b2b-pic" type="text" required placeholder="Nama Lengkap Anda" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Nama Perusahaan *</label>
+                <input id="b2b-company" type="text" required placeholder="PT / CV / Instansi" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Nomor WhatsApp Aktif *</label>
+                <input id="b2b-wa" type="tel" required placeholder="0812xxxxxxxx" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Estimasi Jumlah Paket *</label>
+                <select id="b2b-qty" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold">
+                  <option value="20 - 50 Paket">20 – 50 Paket</option>
+                  <option value="51 - 150 Paket">51 – 150 Paket</option>
+                  <option value="151 - 500 Paket">151 – 500 Paket</option>
+                  <option value="> 500 Paket">&gt; 500 Paket (Enterprise)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Budget per Paket</label>
+                <input id="b2b-budget" type="text" placeholder="Contoh: Rp 400.000 / paket" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-luxury-primary mb-1">Target Tanggal Kirim</label>
+                <input id="b2b-date" type="date" class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-luxury-primary mb-1">Kebutuhan Khusus (Custom Logo / Multi-Alamat)</label>
+              <textarea id="b2b-notes" rows="2" placeholder="Contoh: Cetak logo perusahaan di pita & kirim ke 45 alamat klien Jabodetabek..." class="w-full px-3.5 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-sm focus:outline-none focus:border-luxury-gold"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-luxury-primary text-white font-semibold text-sm hover:bg-luxury-primaryDark transition shadow-md">
+              Kirim Permintaan Penawaran & Hubungi Concierge
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF / TESTIMONIALS -->
+  <section class="py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+        <span class="text-xs uppercase tracking-[0.25em] font-bold text-luxury-gold">Dipercaya Klien Ritel & Korporat</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-luxury-primary">Cerita Hangat dari Penerima & Pengirim</h2>
+      </div>
+      <div id="testimonials-grid" class="grid md:grid-cols-3 gap-6">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-luxury-primaryDark text-white/80 pt-14 pb-8 border-t border-luxury-gold/25">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-white/10">
+        <div class="space-y-3">
+          <h3 class="font-serif text-2xl font-bold text-white">Crave Parcel</h3>
+          <p class="text-xs leading-relaxed text-white/70">Atelier bingkisan dan hampers premium untuk momen pribadi maupun relasi bisnis terbaik Anda.</p>
+          <p id="footer-address" class="text-xs text-luxury-goldLight">Jakarta & Surabaya • Pengiriman Seluruh Indonesia</p>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest font-bold text-luxury-gold mb-3">Navigasi Cepat</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#katalog" class="hover:text-white transition">Katalog Hampers</a></li>
+            <li><a href="#custom-builder" class="hover:text-white transition">Custom Hamper Builder</a></li>
+            <li><a href="#corporate" class="hover:text-white transition">Corporate & B2B</a></li>
+            <li><button onclick="openTrackingModal()" class="hover:text-white transition text-left">Lacak Status Pesanan</button></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest font-bold text-luxury-gold mb-3">Layanan Pelanggan</h4>
+          <ul class="space-y-2 text-xs">
+            <li id="footer-wa-display">WhatsApp: +62 812-0000-0000</li>
+            <li id="footer-hours">Operasional: Senin – Minggu (08.00 – 21.00)</li>
+            <li>Garansi Pengemasan Aman & Asuransi</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest font-bold text-luxury-gold mb-3">Metode Pembayaran</h4>
+          <p class="text-xs text-white/70 leading-relaxed">Mendukung Transfer Bank / Virtual Account, QRIS Instan, E-Wallet, serta Invoice Korporat.</p>
+        </div>
+      </div>
+
+      <div class="pt-6 flex items-center justify-between text-xs text-white/50">
+        <p>© 2026 Crave Parcel Luxury Gifting. All rights reserved.</p>
+        <!-- Discreet Private Admin Trigger -->
+        <button onclick="openAdminAuth()" title="Akses Private Admin" class="p-2 rounded-lg text-white/30 hover:text-luxury-gold transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 1: QUICK DETAIL PRODUK                                          -->
+  <!-- ===================================================================== -->
+  <div id="product-detail-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl border border-luxury-gold/30 animate-fadeIn">
+      <div class="grid md:grid-cols-2">
+        <div id="detail-img-wrapper" class="bg-luxury-sand aspect-[4/3] md:aspect-auto relative overflow-hidden">
+          <img id="detail-img" src="" alt="Detail Hampers" class="w-full h-full object-cover" />
+          <span id="detail-badge" class="absolute top-3 left-3 px-3 py-1 rounded-full bg-luxury-primary text-luxury-gold text-xs font-bold"></span>
+        </div>
+        <div class="p-6 flex flex-col justify-between space-y-4">
+          <div>
+            <div class="flex justify-between items-start gap-2">
+              <span id="detail-cat" class="text-[11px] uppercase tracking-widest font-bold text-luxury-gold"></span>
+              <button onclick="closeProductDetail()" class="text-luxury-charcoal/50 hover:text-luxury-primary text-xl font-bold leading-none">&times;</button>
+            </div>
+            <h3 id="detail-title" class="font-serif text-2xl font-bold text-luxury-primary mt-1"></h3>
+            <p id="detail-price" class="font-serif text-2xl font-bold text-luxury-gold mt-1"></p>
+            <p id="detail-desc" class="text-xs text-luxury-charcoal/75 mt-3 leading-relaxed"></p>
+            <div class="mt-4">
+              <p class="text-xs font-bold text-luxury-primary mb-1.5">Rincian Isi Bingkisan:</p>
+              <ul id="detail-items" class="space-y-1 text-xs text-luxury-charcoal/80 list-disc pl-4"></ul>
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-luxury-gold/20 flex gap-2.5">
+            <button id="detail-add-btn" class="flex-1 py-3 px-4 rounded-xl bg-luxury-primary text-white text-xs sm:text-sm font-semibold hover:bg-luxury-primaryDark transition">
+              + Tambah ke Keranjang
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 2: SLIDE-OVER SHOPPING CART & DIRECT CHECKOUT                   -->
+  <!-- ===================================================================== -->
+  <div id="cart-drawer" class="fixed inset-0 z-50 hidden">
+    <div onclick="closeCart()" class="absolute inset-0 bg-black/60 backdrop-blur-xs"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-full max-w-lg bg-luxury-cream shadow-2xl flex flex-col border-l border-luxury-gold/30">
+      <!-- Header -->
+      <div class="p-5 bg-luxury-primary text-white flex items-center justify-between">
+        <div>
+          <h3 class="font-serif text-2xl font-bold">Keranjang & Checkout</h3>
+          <p class="text-xs text-luxury-goldLight">Lengkapi kartu ucapan & jadwal kirim di bawah</p>
+        </div>
+        <button onclick="closeCart()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-lg">&times;</button>
+      </div>
+
+      <!-- Body -->
+      <div class="flex-1 overflow-y-auto p-5 space-y-6">
+        <!-- Cart Items -->
+        <div id="cart-items-container" class="space-y-3"></div>
+
+        <!-- Structured Checkout Form -->
+        <form id="checkout-form" onsubmit="processDirectCheckout(event)" class="space-y-4 bg-white p-5 rounded-2xl border border-luxury-gold/25 shadow-xs">
+          <h4 class="font-serif text-xl font-bold text-luxury-primary border-b border-luxury-gold/20 pb-2">Detail Pengiriman & Kartu Ucapan</h4>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-luxury-primary mb-1">Nama Pengirim *</label>
+              <input id="chk-sender-name" type="text" required placeholder="Nama Anda" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-luxury-primary mb-1">No. WhatsApp Pengirim *</label>
+              <input id="chk-sender-wa" type="tel" required placeholder="0812xxxxxxxx" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-luxury-primary mb-1">Nama Penerima *</label>
+              <input id="chk-recipient-name" type="text" required placeholder="Nama Penerima Bingkisan" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-luxury-primary mb-1">Tanggal Pengiriman *</label>
+              <input id="chk-delivery-date" type="date" required class="w-full px-3 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-luxury-primary mb-1">Alamat Lengkap Tujuan / Multi-Alamat *</label>
+            <textarea id="chk-address" rows="2" required placeholder="Jl. Sudirman No. 10, Jakarta Selatan (atau tulis 'Kirim ke banyak alamat - daftar menyusul')" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm"></textarea>
+          </div>
+
+          <!-- Mandatory Greeting Card Box -->
+          <div class="p-3.5 rounded-xl bg-luxury-sand/70 border border-luxury-gold/40 space-y-2.5">
+            <p class="text-xs font-bold text-luxury-primary flex items-center gap-1.5">
+              <span>✉️</span> Pesan Kartu Ucapan (Wajib Diisi)
+            </p>
+            <div class="grid grid-cols-2 gap-2">
+              <input id="chk-card-to" type="text" required placeholder="Untuk: ..." class="w-full px-3 py-2 rounded-lg border border-luxury-gold/30 bg-white text-xs" />
+              <input id="chk-card-from" type="text" required placeholder="Dari: ..." class="w-full px-3 py-2 rounded-lg border border-luxury-gold/30 bg-white text-xs" />
+            </div>
+            <textarea id="chk-card-msg" rows="2" required placeholder="Tulis kalimat ucapan yang akan dicetak di kartu..." class="w-full px-3 py-2 rounded-lg border border-luxury-gold/30 bg-white text-xs"></textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-luxury-primary mb-1">Metode Pembayaran *</label>
+            <select id="chk-payment" class="w-full px-3 py-2.5 rounded-xl border border-luxury-gold/30 bg-luxury-cream text-xs sm:text-sm font-semibold text-luxury-primary">
+              <option value="QRIS Instan">QRIS Instan (Scan Semua Bank & E-Wallet)</option>
+              <option value="Transfer Bank / Virtual Account">Transfer Bank / Virtual Account</option>
+              <option value="E-Wallet (GoPay / OVO / DANA)">E-Wallet (GoPay / OVO / DANA)</option>
+            </select>
+          </div>
+
+          <div class="pt-2 border-t border-luxury-gold/20 flex items-center justify-between">
+            <span class="text-xs font-semibold text-luxury-charcoal/75">Total Pembayaran:</span>
+            <span id="cart-total-display" class="font-serif text-2xl font-bold text-luxury-primary">Rp 0</span>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 px-5 rounded-xl bg-luxury-primary text-white font-semibold text-sm hover:bg-luxury-primaryDark transition shadow-lg">
+            Buat Pesanan & Tampilkan Pembayaran
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 3: INVOICE & PEMBAYARAN (QRIS / REKENING VA / KONFIRMASI WA)    -->
+  <!-- ===================================================================== -->
+  <div id="invoice-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/75 backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border-2 border-luxury-gold max-h-[92vh] overflow-y-auto space-y-4">
+      <div class="text-center border-b border-luxury-gold/20 pb-4">
+        <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold mb-2">✓ Pesanan Berhasil Dibuat</span>
+        <h3 class="font-serif text-2xl font-bold text-luxury-primary">Invoice #<span id="inv-id"></span></h3>
+        <p class="text-xs text-luxury-charcoal/70 mt-0.5">Simpan nomor invoice ini untuk melacak status bingkisan Anda</p>
+      </div>
+
+      <div class="bg-luxury-cream p-4 rounded-2xl border border-luxury-gold/30 space-y-2 text-xs">
+        <div class="flex justify-between">
+          <span class="text-luxury-charcoal/70">Total Tagihan:</span>
+          <span id="inv-total" class="font-bold text-base text-luxury-primary"></span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-luxury-charcoal/70">Metode Dipilih:</span>
+          <span id="inv-method" class="font-semibold text-luxury-primary"></span>
+        </div>
+      </div>
+
+      <!-- Dynamic Payment Instruction (QRIS / Bank VA / E-Wallet) -->
+      <div id="inv-payment-details" class="p-4 rounded-2xl bg-luxury-sand/70 border border-luxury-gold/40 text-center space-y-3">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="space-y-2 pt-1">
+        <a id="inv-wa-btn" href="#" target="_blank" class="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition shadow-md">
+          <span>Konfirmasi Pembayaran via WhatsApp Admin</span>
+        </a>
+        <button onclick="openTrackingWithId()" class="w-full py-2.5 px-4 rounded-xl border border-luxury-gold text-luxury-primary font-semibold text-xs hover:bg-luxury-sand transition">
+          Lacak Status Pesanan Ini
+        </button>
+        <button onclick="closeInvoiceModal()" class="w-full py-2 text-xs text-luxury-charcoal/60 hover:text-luxury-primary">
+          Tutup Jendela
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 4: CUSTOMER LIVE ORDER TRACKING                                 -->
+  <!-- ===================================================================== -->
+  <div id="tracking-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/75 backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl max-w-xl w-full p-6 shadow-2xl border border-luxury-gold/40 max-h-[90vh] overflow-y-auto space-y-5">
+      <div class="flex items-center justify-between border-b border-luxury-gold/20 pb-3">
+        <div>
+          <span class="text-[10px] uppercase tracking-widest font-bold text-luxury-gold">Real-Time Delivery Concierge</span>
+          <h3 class="font-serif text-2xl font-bold text-luxury-primary">Lacak Status Pesanan Anda</h3>
+        </div>
+        <button onclick="closeTrackingModal()" class="w-8 h-8 rounded-full bg-luxury-sand hover:bg-luxury-gold/20 flex items-center justify-center font-bold">&times;</button>
+      </div>
+
+      <form onsubmit="searchCustomerOrder(event)" class="flex gap-2">
+        <input id="tracking-query-input" type="text" required placeholder="Masukkan No. Invoice (misal: CP-123456) atau No. WA..." class="flex-1 px-4 py-3 rounded-xl border border-luxury-gold/40 bg-luxury-cream text-xs sm:text-sm focus:outline-none focus:border-luxury-gold" />
+        <button type="submit" class="px-5 py-3 rounded-xl bg-luxury-primary text-white text-xs sm:text-sm font-semibold hover:bg-luxury-primaryDark transition shrink-0">
+          Lacak
+        </button>
+      </form>
+
+      <div id="tracking-result-container" class="space-y-4">
+        <div class="text-center py-8 text-xs text-luxury-charcoal/60 bg-luxury-cream rounded-2xl border border-dashed border-luxury-gold/30">
+          Masukkan Nomor Invoice atau Nomor WhatsApp pemesan untuk melihat progres perakitan & nomor resi kurir secara real-time.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 5: PRIVATE ADMIN PIN AUTH                                       -->
+  <!-- ===================================================================== -->
+  <div id="admin-auth-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl max-w-sm w-full p-6 shadow-2xl border border-luxury-gold text-center space-y-4">
+      <div class="w-12 h-12 rounded-full bg-luxury-primary text-luxury-gold mx-auto flex items-center justify-center">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+      </div>
+      <div>
+        <h3 class="font-serif text-2xl font-bold text-luxury-primary">Private Atelier Admin</h3>
+        <p class="text-xs text-luxury-charcoal/70 mt-1">Masukkan PIN Keamanan untuk mengelola katalog & pesanan</p>
+      </div>
+      <form onsubmit="verifyAdminPin(event)" class="space-y-3">
+        <input id="admin-pin-input" type="password" maxlength="8" required placeholder="••••" class="w-full text-center tracking-[0.5em] text-xl font-bold px-4 py-3 rounded-xl border border-luxury-gold/40 bg-luxury-cream focus:outline-none focus:border-luxury-gold" />
+        <p id="admin-pin-error" class="text-xs text-red-600 hidden">PIN salah. Silakan coba lagi.</p>
+        <div class="flex gap-2">
+          <button type="button" onclick="closeAdminAuth()" class="flex-1 py-2.5 rounded-xl border border-gray-300 text-xs font-semibold">Batal</button>
+          <button type="submit" class="flex-1 py-2.5 rounded-xl bg-luxury-primary text-white text-xs font-semibold">Masuk</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL 6: FULL PRIVATE ADMIN DASHBOARD (REAL-TIME CLOUD SYNCED)        -->
+  <!-- ===================================================================== -->
+  <div id="admin-dashboard-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm overflow-y-auto p-2 sm:p-6">
+    <div class="max-w-6xl mx-auto bg-luxury-cream rounded-3xl shadow-2xl border border-luxury-gold overflow-hidden my-2">
+      <!-- Top Bar -->
+      <div class="bg-luxury-primary text-white p-5 flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-2.5">
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold">Crave Parcel — Control Suite</h2>
+            <span id="cloud-sync-badge" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              Cloud Real-Time Aktif
+            </span>
+          </div>
+          <p class="text-xs text-luxury-goldLight mt-0.5">Setiap perubahan otomatis tersinkronisasi real-time ke Google Sheets & Vercel</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="triggerManualFullSync()" class="px-3.5 py-2 rounded-xl bg-luxury-gold text-luxury-primary text-xs font-bold hover:opacity-90 transition">
+            ↻ Paksa Sinkronisasi Sekarang
+          </button>
+          <button onclick="closeAdminDashboard()" class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-semibold">
+            Tutup Panel
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="bg-white border-b border-luxury-gold/20 px-4 flex gap-2 overflow-x-auto no-scrollbar">
+        <button onclick="switchAdminTab('products')" data-tab="products" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-luxury-primary text-luxury-primary whitespace-nowrap">1. Katalog & Foto HD</button>
+        <button onclick="switchAdminTab('builder')" data-tab="builder" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap">2. Custom Builder</button>
+        <button onclick="switchAdminTab('content')" data-tab="content" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap">3. Hero, Keunggulan & Testimoni</button>
+        <button onclick="switchAdminTab('theme')" data-tab="theme" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap">4. Tema Event & Logo</button>
+        <button onclick="switchAdminTab('orders')" data-tab="orders" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap">5. Pesanan, Resi & Log Cloud</button>
+        <button onclick="switchAdminTab('settings')" data-tab="settings" class="admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap">6. WA, Pembayaran QRIS/VA & PIN</button>
+      </div>
+
+      <!-- Tab Content Container -->
+      <div class="p-5 sm:p-6 space-y-6">
+        <!-- TAB 1: PRODUK & FRAME CONTROL -->
+        <div id="admin-tab-products" class="admin-tab-panel space-y-6">
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25">
+            <h3 id="adm-prod-form-title" class="font-serif text-xl font-bold text-luxury-primary mb-4">Tambah / Edit Produk Hampers</h3>
+            <form onsubmit="saveAdminProduct(event)" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <input type="hidden" id="adm-prod-id" />
+              <div>
+                <label class="block text-xs font-semibold mb-1">Nama Paket *</label>
+                <input id="adm-prod-name" type="text" required placeholder="The Royal Emerald Chest" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Kategori *</label>
+                <select id="adm-prod-cat" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs">
+                  <option value="Lebaran">Lebaran</option>
+                  <option value="Natal">Natal</option>
+                  <option value="Imlek">Imlek</option>
+                  <option value="Corporate">Corporate</option>
+                  <option value="Perayaan">Perayaan</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Harga (Rp) *</label>
+                <input id="adm-prod-price" type="number" required placeholder="685000" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Badge Label</label>
+                <input id="adm-prod-badge" type="text" placeholder="Best Seller / Limited Edition" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Upload Foto Produk HD</label>
+                <input type="file" accept="image/*" onchange="handleProductImageUpload(event)" class="w-full text-xs file:mr-2 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-luxury-primary file:text-white" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Atau URL Foto HD</label>
+                <input id="adm-prod-img-url" type="text" oninput="updateProductPreviewFrame()" placeholder="https://..." class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+              </div>
+
+              <!-- Live Frame Preview & Fit Controls -->
+              <div class="sm:col-span-2 lg:col-span-3 p-4 rounded-xl bg-luxury-sand/60 border border-luxury-gold/30 flex flex-col sm:flex-row items-center gap-4">
+                <div id="adm-prod-preview-box" class="w-44 aspect-[4/3] rounded-xl overflow-hidden bg-white border border-luxury-gold/40 shrink-0">
+                  <img id="adm-prod-preview-img" src="https://placehold.co/800x600/132A22/D4AF37?text=Preview+4:3" alt="Preview" class="w-full h-full object-cover object-center" />
+                </div>
+                <div class="flex-1 grid sm:grid-cols-2 gap-3 w-full">
+                  <div>
+                    <label class="block text-xs font-bold text-luxury-primary mb-1">Mode Bingkai Foto (Anti-Terpotong)</label>
+                    <select id="adm-prod-fit" onchange="updateProductPreviewFrame()" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/40 bg-white text-xs font-semibold">
+                      <option value="cover">Penuhi Bingkai (Cover 4:3)</option>
+                      <option value="contain">Utuh Tanpa Terpotong (Full Fit)</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="block text-xs font-bold text-luxury-primary mb-1">Titik Fokus Posisi Foto</label>
+                    <select id="adm-prod-pos" onchange="updateProductPreviewFrame()" class="w-full px-3 py-2 rounded-xl border border-luxury-gold/40 bg-white text-xs font-semibold">
+                      <option value="object-center">Tengah (Center)</option>
+                      <option value="object-top">Bagian Atas (Top / Pita)</option>
+                      <option value="object-bottom">Bagian Bawah (Bottom)</option>
+                    </select>
+                  </div>
+                  <p class="sm:col-span-2 text-[11px] text-luxury-charcoal/70">Tips: Jika foto hampers berbentuk vertikal (portrait), pilih <strong>"Utuh Tanpa Terpotong (Full Fit)"</strong> agar seluruh tinggi parsel terlihat sempurna.</p>
+                </div>
+              </div>
+
+              <div class="sm:col-span-2 lg:col-span-3">
+                <label class="block text-xs font-semibold mb-1">Daftar Isi Paket (Pisahkan dengan koma) *</label>
+                <input id="adm-prod-items" type="text" required placeholder="Nastar Wisman Gold, Kastengel Edam, Teh Artisan, Kartu Ucapan" class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs" />
+              </div>
+              <div class="sm:col-span-2 lg:col-span-3">
+                <label class="block text-xs font-semibold mb-1">Deskripsi Singkat</label>
+                <textarea id="adm-prod-desc" rows="2" placeholder="Deskripsi kemewahan paket hampers..." class="w-full px-3 py-2 rounded-xl border border-gray-300 text-xs"></textarea>
+              </div>
+              <div class="sm:col-span-2 lg:col-span-3 flex gap-2">
+                <button type="submit" class="px-5 py-2.5 rounded-xl bg-luxury-primary text-white text-xs font-bold">Simpan Produk</button>
+                <button type="button" onclick="resetAdminProductForm()" class="px-4 py-2.5 rounded-xl border border-gray-300 text-xs font-semibold">Reset Form</button>
+              </div>
+            </form>
+          </div>
+
+          <div id="admin-products-list" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+        </div>
+
+        <!-- TAB 2: CUSTOM BUILDER -->
+        <div id="admin-tab-builder" class="admin-tab-panel hidden space-y-6">
+          <div class="grid lg:grid-cols-2 gap-6">
+            <!-- Wadah / Box -->
+            <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+              <h3 class="font-serif text-xl font-bold text-luxury-primary">Kelola Wadah / Box Builder</h3>
+              <form onsubmit="saveBuilderBox(event)" class="grid grid-cols-2 gap-2.5">
+                <input id="adm-box-name" type="text" required placeholder="Nama Wadah (misal: Velvet Box)" class="col-span-2 px-3 py-2 rounded-xl border text-xs" />
+                <input id="adm-box-price" type="number" required placeholder="Harga Wadah (Rp)" class="px-3 py-2 rounded-xl border text-xs" />
+                <input id="adm-box-cap" type="number" required placeholder="Kapasitas Slot (misal: 5)" class="px-3 py-2 rounded-xl border text-xs" />
+                <button type="submit" class="col-span-2 py-2 rounded-xl bg-luxury-primary text-white text-xs font-bold">+ Tambah Wadah</button>
+              </form>
+              <div id="adm-boxes-list" class="space-y-2"></div>
+            </div>
+
+            <!-- Item Isian -->
+            <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+              <h3 class="font-serif text-xl font-bold text-luxury-primary">Kelola Item Isian Builder</h3>
+              <form onsubmit="saveBuilderItem(event)" class="grid grid-cols-2 gap-2.5">
+                <input id="adm-bitem-name" type="text" required placeholder="Nama Item (misal: Nastar Klasik)" class="col-span-2 px-3 py-2 rounded-xl border text-xs" />
+                <input id="adm-bitem-price" type="number" required placeholder="Harga Item (Rp)" class="px-3 py-2 rounded-xl border text-xs" />
+                <input id="adm-bitem-tag" type="text" placeholder="Kategori (Kue / Teh / Aroma)" class="px-3 py-2 rounded-xl border text-xs" />
+                <button type="submit" class="col-span-2 py-2 rounded-xl bg-luxury-primary text-white text-xs font-bold">+ Tambah Item Isian</button>
+              </form>
+              <div id="adm-bitems-list" class="space-y-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 3: HERO, KEUNGGULAN & TESTIMONI -->
+        <div id="admin-tab-content" class="admin-tab-panel hidden space-y-6">
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Edit Hero Section & Foto Utama HD</h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Badge Atas Hero</label>
+                <input id="adm-hero-badge" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Judul Kartu Unggulan Hero</label>
+                <input id="adm-hero-feat-title" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold mb-1">Headline Utama Hero (H1)</label>
+                <input id="adm-hero-title" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold mb-1">Sub-Headline Hero</label>
+                <textarea id="adm-hero-subtitle" rows="2" class="w-full px-3 py-2 rounded-xl border text-xs"></textarea>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Teks Tombol Utama</label>
+                <input id="adm-hero-cta1" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Teks Tombol Kedua</label>
+                <input id="adm-hero-cta2" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Sub-Teks Kartu Unggulan Hero</label>
+                <input id="adm-hero-feat-price" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Upload Foto Hero HD (4:5)</label>
+                <input type="file" accept="image/*" onchange="handleHeroImageUpload(event)" class="w-full text-xs file:mr-2 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-luxury-primary file:text-white" />
+              </div>
+            </div>
+            <button onclick="saveHeroAndTrustContent()" class="px-5 py-2.5 rounded-xl bg-luxury-primary text-white text-xs font-bold">Simpan Perubahan Hero</button>
+          </div>
+
+          <!-- Testimoni -->
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Kelola Testimoni Klien</h3>
+            <form onsubmit="addTestimonial(event)" class="grid sm:grid-cols-3 gap-3">
+              <input id="adm-testi-name" type="text" required placeholder="Nama Klien" class="px-3 py-2 rounded-xl border text-xs" />
+              <input id="adm-testi-role" type="text" required placeholder="Jabatan / Perusahaan / Kota" class="px-3 py-2 rounded-xl border text-xs" />
+              <input id="adm-testi-text" type="text" required placeholder="Isi Ulasan..." class="px-3 py-2 rounded-xl border text-xs" />
+              <button type="submit" class="sm:col-span-3 py-2 rounded-xl bg-luxury-primary text-white text-xs font-bold">+ Tambah Testimoni</button>
+            </form>
+            <div id="adm-testimonials-list" class="space-y-2"></div>
+          </div>
+        </div>
+
+        <!-- TAB 4: TEMA EVENT & LOGO -->
+        <div id="admin-tab-theme" class="admin-tab-panel hidden space-y-6">
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Tema Musiman / Hari Raya (1-Klik)</h3>
+            <div class="grid sm:grid-cols-4 gap-3">
+              <button onclick="applyThemePreset('default')" class="p-4 rounded-2xl border-2 border-luxury-gold bg-[#FAF7F2] text-left">
+                <span class="block font-bold text-xs text-[#132A22]">Signature Emerald</span>
+                <span class="text-[11px] text-gray-600">Default Mewah Sepanjang Tahun</span>
+              </button>
+              <button onclick="applyThemePreset('lebaran')" class="p-4 rounded-2xl border-2 border-emerald-700 bg-[#F8FAF7] text-left">
+                <span class="block font-bold text-xs text-[#0F3D2E]">Idul Fitri / Lebaran</span>
+                <span class="text-[11px] text-gray-600">Royal Emerald & Gold Foil</span>
+              </button>
+              <button onclick="applyThemePreset('natal')" class="p-4 rounded-2xl border-2 border-rose-800 bg-[#FCF8F8] text-left">
+                <span class="block font-bold text-xs text-[#5B1622]">Natal & Tahun Baru</span>
+                <span class="text-[11px] text-gray-600">Burgundy Velvet & Champagne</span>
+              </button>
+              <button onclick="applyThemePreset('imlek')" class="p-4 rounded-2xl border-2 border-red-700 bg-[#FDF8F5] text-left">
+                <span class="block font-bold text-xs text-[#7A1414]">Imlek / CNY</span>
+                <span class="text-[11px] text-gray-600">Imperial Crimson & Imperial Gold</span>
+              </button>
+            </div>
+
+            <div class="pt-3 border-t space-y-3">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Teks Pengumuman Atas (Announcement Bar)</label>
+                <input id="adm-banner-text" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Upload Logo Brand HD (Persegi 1:1)</label>
+                <input type="file" accept="image/*" onchange="handleLogoUpload(event)" class="text-xs file:mr-2 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-luxury-primary file:text-white" />
+              </div>
+              <button onclick="saveThemeAndBanner()" class="px-5 py-2.5 rounded-xl bg-luxury-primary text-white text-xs font-bold">Simpan Tema & Banner</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 5: PESANAN, RESI & LOG AKTIVITAS CLOUD -->
+        <div id="admin-tab-orders" class="admin-tab-panel hidden space-y-6">
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-4">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Daftar Pesanan Ritel & Leads B2B</h3>
+            <div id="admin-orders-list" class="space-y-3"></div>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-3">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Riwayat Aktivitas Admin (Google Sheets Audit Log)</h3>
+            <div id="admin-logs-list" class="space-y-2 max-h-64 overflow-y-auto text-xs"></div>
+          </div>
+        </div>
+
+        <!-- TAB 6: WA, PEMBAYARAN QRIS/VA & PIN -->
+        <div id="admin-tab-settings" class="admin-tab-panel hidden space-y-6">
+          <form onsubmit="saveAdminSettings(event)" class="bg-white p-5 rounded-2xl border border-luxury-gold/25 space-y-5">
+            <h3 class="font-serif text-xl font-bold text-luxury-primary">Kontak WhatsApp, SEO & Pembayaran Owner</h3>
+
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Nomor WhatsApp Admin (Format 628xxx) *</label>
+                <input id="adm-set-wa" type="text" required placeholder="6281234567890" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">PIN Keamanan Admin *</label>
+                <input id="adm-set-pin" type="text" required maxlength="8" placeholder="2026" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold mb-1">Judul SEO Website (Meta Title)</label>
+                <input id="adm-set-seo-title" type="text" class="w-full px-3 py-2 rounded-xl border text-xs" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-xs font-semibold mb-1">Deskripsi SEO Website (Meta Description)</label>
+                <textarea id="adm-set-seo-desc" rows="2" class="w-full px-3 py-2 rounded-xl border text-xs"></textarea>
+              </div>
+            </div>
+
+            <!-- Rekening Bank / VA & QRIS -->
+            <div class="p-4 rounded-2xl bg-luxury-sand/60 border border-luxury-gold/30 space-y-4">
+              <h4 class="font-bold text-sm text-luxury-primary">Pengaturan Rekening Bank / VA & QRIS Pembayaran</h4>
+              <div class="grid sm:grid-cols-3 gap-3">
+                <input id="adm-bank1-name" type="text" placeholder="Bank 1 (misal: BCA / VA)" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+                <input id="adm-bank1-acc" type="text" placeholder="No. Rekening / VA 1" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+                <input id="adm-bank1-holder" type="text" placeholder="Atas Nama Pemilik" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+
+                <input id="adm-bank2-name" type="text" placeholder="Bank 2 (misal: Mandiri)" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+                <input id="adm-bank2-acc" type="text" placeholder="No. Rekening / VA 2" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+                <input id="adm-bank2-holder" type="text" placeholder="Atas Nama Pemilik" class="px-3 py-2 rounded-xl border bg-white text-xs" />
+
+                <input id="adm-ewallet-info" type="text" placeholder="Info E-Wallet (GoPay/OVO/DANA)" class="sm:col-span-3 px-3 py-2 rounded-xl border bg-white text-xs" />
+              </div>
+
+              <div class="flex flex-col sm:flex-row items-center gap-4 pt-2">
+                <div class="w-28 h-28 rounded-xl bg-white border border-luxury-gold/40 flex items-center justify-center overflow-hidden shrink-0">
+                  <img id="adm-qris-preview" src="" alt="Preview QRIS" class="w-full h-full object-contain hidden" />
+                  <span id="adm-qris-placeholder" class="text-[10px] text-gray-400 text-center px-2">Belum ada gambar QRIS</span>
+                </div>
+                <div class="space-y-1.5">
+                  <label class="block text-xs font-bold text-luxury-primary">Upload Gambar QRIS Toko (Persegi 1:1)</label>
+                  <input type="file" accept="image/*" onchange="handleQrisUpload(event)" class="text-xs file:mr-2 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:bg-luxury-primary file:text-white" />
+                  <p class="text-[11px] text-luxury-charcoal/70">Gambar QRIS otomatis tampil saat pelanggan memilih metode bayar QRIS Instan.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Info Status Koneksi Otomatis -->
+            <div class="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 flex items-center justify-between gap-3">
+              <div>
+                <p class="font-bold">Koneksi Otomatis Vercel ↔ Google Sheets</p>
+                <p id="adm-endpoint-info" class="text-[11px] text-emerald-700 mt-0.5">Terhubung otomatis melalui endpoint /api/sync (Zero-Config HTML)</p>
+              </div>
+              <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-[10px] font-bold shrink-0">AUTO-LINKED</span>
+            </div>
+
+            <button type="submit" class="px-6 py-3 rounded-xl bg-luxury-primary text-white text-xs font-bold shadow-md">
+              Simpan & Sinkronkan Pengaturan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast-box" class="fixed bottom-5 right-5 z-50 hidden max-w-xs bg-luxury-primary text-white px-4 py-3 rounded-2xl shadow-2xl border border-luxury-gold text-xs font-semibold"></div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT APPLICATION & REAL-TIME GOOGLE SHEETS SYNC ENGINE          -->
+  <!-- ===================================================================== -->
+  <script>
+    /**
+     * ========================================================================
+     * CRAVE REAL-TIME CLOUD SYNC ENGINE (ZERO-URL IN HTML)
+     * ========================================================================
+     * Otomatis terhubung ke /api/sync (Vercel Serverless Proxy) sehingga Anda
+     * TIDAK PERLU menuliskan URL Google Apps Script di dalam kode HTML ini.
+     */
+    const DEFAULT_DATA = {
+      products: [
+        {
+          id: 'CP-101',
+          name: 'The Royal Emerald Chest',
+          category: 'Lebaran',
+          price: 685000,
+          badge: 'Best Seller',
+          image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=80',
+          items: ['Nastar Wisman Gold Edition', 'Kastengel Keju Edam Tua', 'Premium Earl Grey Tea Tin', 'Sajadah Travel Silk', 'Gold Foil Greeting Card'],
+          description: 'Koper eksklusif berlapis beludru emerald dengan aksen kunci emas, dirancang untuk memberikan kesan tak terlupakan bagi keluarga maupun relasi utama.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        },
+        {
+          id: 'CP-102',
+          name: 'Sovereign Executive Trunk',
+          category: 'Corporate',
+          price: 950000,
+          badge: 'Corporate Favorite',
+          image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345d?auto=format&fit=crop&w=900&q=80',
+          items: ['Artisan Single-Origin Coffee', 'Belgian Dark Chocolate Praline', 'Botanical Reed Diffuser 100ml', 'Stainless Vacuum Tumbler Custom Logo', 'Bespoke Ribbon & Card'],
+          description: 'Bingkisan prestisius untuk klien VIP dan direksi perusahaan dengan opsi cetak logo perusahaan pada pita dan tumbler.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        },
+        {
+          id: 'CP-103',
+          name: 'Serenity Petite Hampers',
+          category: 'Lebaran',
+          price: 295000,
+          badge: 'Hemat & Elegan',
+          image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=900&q=80',
+          items: ['Putri Salju Mede', 'Choco Chip Butter Cookies', 'Artisan Honey Jar 150gr', 'Kartu Ucapan Kaligrafi'],
+          description: 'Pilihan bingkisan hangat dengan harga bersahabat tanpa mengurangi estetika kemasan hardbox mewah khas Crave Parcel.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        },
+        {
+          id: 'CP-104',
+          name: 'Crimson Prosperity Set',
+          category: 'Imlek',
+          price: 780000,
+          badge: 'Limited Edition',
+          image: 'https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=80',
+          items: ['Lapis Legit Prunes Premium', 'Tie Guan Yin Oolong Tea', 'Golden Pineapple Tarts', 'Angpao Silk Pouch (6 pcs)'],
+          description: 'Simbol kemakmuran dan keberuntungan dalam kotak merah imperial berornamen emas klasik.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        },
+        {
+          id: 'CP-105',
+          name: 'Noel Velvet Symphony',
+          category: 'Natal',
+          price: 620000,
+          badge: 'Seasonal',
+          image: 'https://images.unsplash.com/photo-1543589077-47d81606c1bf?auto=format&fit=crop&w=900&q=80',
+          items: ['Cinnamon Speculoos Cookies', 'Scented Soy Candle Pine & Vanilla', 'Hot Cocoa Artisan Mix', 'Gold Ornament & Greeting Card'],
+          description: 'Kehangatan malam Natal dalam rangkaian aroma pinus, cokelat hangat, dan kue rempah khas Eropa.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        },
+        {
+          id: 'CP-106',
+          name: 'Blissful Union Gift Box',
+          category: 'Perayaan',
+          price: 490000,
+          badge: 'Gift Choice',
+          image: 'https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=80',
+          items: ['Couple Ceramic Mug Gold Rim', 'Artisan Floral Tea', 'French Macarons Box', 'Personal Calligraphed Card'],
+          description: 'Hadiah istimewa untuk perayaan ulang tahun, pertunangan, maupun pernikahan sahabat terdekat.',
+          imageFit: 'cover',
+          imagePos: 'object-center'
+        }
+      ],
+      builderBoxes: [
+        { id: 'BOX-1', name: 'Signature Hardbox Magnetic', price: 95000, capacity: 4 },
+        { id: 'BOX-2', name: 'Rattan Heritage Basket', price: 145000, capacity: 6 },
+        { id: 'BOX-3', name: 'Royal Velvet Trunk Chest', price: 225000, capacity: 8 }
+      ],
+      builderItems: [
+        { id: 'BI-1', name: 'Nastar Wisman Gold (Toples Kaca)', price: 115000, tag: 'Kue Kering' },
+        { id: 'BI-2', name: 'Kastengel Keju Edam Tua', price: 120000, tag: 'Kue Kering' },
+        { id: 'BI-3', name: 'Artisan Loose Leaf Tea Tin', price: 85000, tag: 'Minuman' },
+        { id: 'BI-4', name: 'Botanical Reed Diffuser 100ml', price: 135000, tag: 'Home Living' },
+        { id: 'BI-5', name: 'Sajadah Travel Silk + Tasbih', price: 140000, tag: 'Ibadah' },
+        { id: 'BI-6', name: 'Madu Hutan Murni + Dipper Kayu', price: 95000, tag: 'Gourmet' }
+      ],
+      trustSignals: [
+        { icon: '🛡️', title: 'Pengiriman Aman Seluruh Kota', desc: 'Proteksi bubble wrap berlapis, kardus luar tebal & asuransi pengiriman.' },
+        { icon: '✉️', title: 'Gratis Kartu Ucapan Custom', desc: 'Dicetak di atas kertas bertekstur mewah dengan pesan personal Anda.' },
+        { icon: '🎀', title: 'Pengemasan Eksklusif', desc: 'Pita satin premium, segel lilin/emas, dan standar kontrol kualitas ketat.' },
+        { icon: '🏢', title: 'Terima Pesanan Partai Besar', desc: 'Kapasitas produksi ratusan paket/hari dengan opsi logo perusahaan.' }
+      ],
+      testimonials: [
+        { name: 'Nadya Kusuma', role: 'Head of Procurement • PT Artha Mandiri', text: 'Pesan 180 paket untuk klien VIP kami. Semua dikirim ke multi-alamat tepat waktu, pita logo perusahaan tercetak sangat rapi!' },
+        { name: 'Rendra Pratama', role: 'Pelanggan Ritel • Jakarta', text: 'Fitur rakit hampers sendiri sangat membantu! Bisa sesuaikan budget dan langsung tulis kartu ucapan tanpa bolak-balik chat.' },
+        { name: 'Clarissa Wijaya', role: 'Corporate Secretary • Surabaya', text: 'Kualitas kue kering dan kemasan hardbox-nya benar-benar mewah. Banyak relasi kami memuji bingkisan dari Crave Parcel.' }
+      ],
+      config: {
+        theme: 'default',
+        bannerText: '✨ Early Bird Season: Gratis Kartu Ucapan Kaligrafi Emas & Custom Pita Logo Perusahaan untuk Pemesanan Minggu Ini',
+        logoImg: '',
+        heroBadge: 'Kurasi Bingkisan Premium Indonesia',
+        heroTitle: 'Sampaikan Rasa Hormat & Kehangatan Lewat Bingkisan yang Tak Terlupakan',
+        heroSubtitle: 'Bukan sekadar parcel biasa. Setiap kotak Crave Parcel dirangkai dengan kurasi artisan gourmet, kemasan eksklusif berlapis emas, dan kartu ucapan personal—siap dipesan satuan maupun ratusan paket korporat dalam hitungan menit.',
+        heroCta1: 'Jelajahi Katalog Hampers',
+        heroCta2: 'Pesan Custom / Corporate',
+        heroImg: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1000&q=85',
+        heroFeatTitle: 'The Royal Emerald Chest',
+        heroFeatPrice: 'Mulai Rp 685.000 • Free Gold Foil Card',
+        whatsapp: '6281234567890',
+        adminPin: '2026',
+        seoTitle: 'Crave Parcel | Jual Hampers Lebaran, Parcel Perusahaan & Custom Hampers Mewah',
+        seoDesc: 'Crave Parcel menyediakan koleksi parcel dan hampers premium untuk Lebaran, Natal, Imlek, dan Corporate Gift.',
+        bank1Name: 'BCA Virtual Account / Transfer',
+        bank1Acc: '8820192837',
+        bank1Holder: 'PT Crave Parcel Indonesia',
+        bank2Name: 'Bank Mandiri',
+        bank2Acc: '1240009817263',
+        bank2Holder: 'PT Crave Parcel Indonesia',
+        ewalletInfo: 'GoPay / OVO / DANA: 0812-3456-7890 a.n. Crave Parcel',
+        qrisImg: ''
+      }
+    };
+
+    const STORAGE_KEY = 'CRAVE_PARCEL_REALTIME_CACHE_V1';
+
+    let appState = {
+      products: JSON.parse(JSON.stringify(DEFAULT_DATA.products)),
+      builderBoxes: JSON.parse(JSON.stringify(DEFAULT_DATA.builderBoxes)),
+      builderItems: JSON.parse(JSON.stringify(DEFAULT_DATA.builderItems)),
+      trustSignals: JSON.parse(JSON.stringify(DEFAULT_DATA.trustSignals)),
+      testimonials: JSON.parse(JSON.stringify(DEFAULT_DATA.testimonials)),
+      config: JSON.parse(JSON.stringify(DEFAULT_DATA.config)),
+      orders: [],
+      logs: [],
+      cart: [],
+      activeCategory: 'Semua',
+      selectedBoxId: 'BOX-1',
+      selectedBuilderItems: [],
+      lastInvoiceId: ''
+    };
+
+    /**
+     * ========================================================================
+     * REAL-TIME SYNC ENGINE (AUTO-DISCOVERY + VERSION POLLING + RETRY QUEUE)
+     * ========================================================================
+     */
+    const CraveRealTimeEngine = {
+      apiEndpoint: '/api/sync',
+      serverVersion: null,
+      isSyncing: false,
+      retryQueue: [],
+      pollTimer: null,
+
+      init() {
+        // Izinkan override endpoint lewat query string ?gas=... bila diuji di luar Vercel
+        const params = new URLSearchParams(window.location.search);
+        const gasQuery = params.get('gas');
+        if (gasQuery) {
+          this.apiEndpoint = gasQuery;
+          localStorage.setItem('CRAVE_CUSTOM_GAS_ENDPOINT', gasQuery);
+        } else {
+          const savedCustom = localStorage.getItem('CRAVE_CUSTOM_GAS_ENDPOINT');
+          if (savedCustom) this.apiEndpoint = savedCustom;
+        }
+
+        this.loadLocalCache();
+        this.pullFullState(true);
+        this.startRealTimePolling();
+      },
+
+      loadLocalCache() {
+        try {
+          const cached = localStorage.getItem(STORAGE_KEY);
+          if (cached) {
+            const parsed = JSON.parse(cached);
+            if (Array.isArray(parsed.products) && parsed.products.length) appState.products = parsed.products;
+            if (Array.isArray(parsed.builderBoxes) && parsed.builderBoxes.length) appState.builderBoxes = parsed.builderBoxes;
+            if (Array.isArray(parsed.builderItems) && parsed.builderItems.length) appState.builderItems = parsed.builderItems;
+            if (Array.isArray(parsed.testimonials) && parsed.testimonials.length) appState.testimonials = parsed.testimonials;
+            if (Array.isArray(parsed.orders)) appState.orders = parsed.orders;
+            if (Array.isArray(parsed.logs)) appState.logs = parsed.logs;
+            if (parsed.config && typeof parsed.config === 'object') {
+              appState.config = { ...DEFAULT_DATA.config, ...parsed.config };
+            }
+          }
+        } catch (e) {
+          console.warn('Cache read skipped:', e);
+        }
+      },
+
+      saveLocalCache() {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify({
+            products: appState.products,
+            builderBoxes: appState.builderBoxes,
+            builderItems: appState.builderItems,
+            testimonials: appState.testimonials,
+            orders: appState.orders,
+            logs: appState.logs,
+            config: appState.config
+          }));
+        } catch (e) {
+          console.warn('Cache write skipped:', e);
+        }
+      },
+
+      setBadgeStatus(mode, text) {
+        const badge = document.getElementById('cloud-sync-badge');
+        if (!badge) return;
+        if (mode === 'syncing') {
+          badge.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-400/30 sync-pulse';
+          badge.innerHTML = `<span class="w-2 h-2 rounded-full bg-amber-400"></span> ${text || 'Menyinkronkan...'}`;
+        } else if (mode === 'online') {
+          badge.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30';
+          badge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-400"></span> ${text || 'Cloud Real-Time Aktif'}`;
+        } else {
+          badge.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-rose-500/20 text-rose-200 border border-rose-400/30';
+          badge.innerHTML = `<span class="w-2 h-2 rounded-full bg-rose-400"></span> ${text || 'Menunggu Koneksi Vercel'}`;
+        }
+      },
+
+      async pullFullState(seedIfEmpty = false) {
+        try {
+          this.setBadgeStatus('syncing', 'Memuat Data Cloud...');
+          const res = await fetch(`${this.apiEndpoint}?action=getAll&_t=${Date.now()}`, { cache: 'no-store' });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          const json = await res.json();
+
+          if (json.status === 'unconfigured') {
+            this.setBadgeStatus('offline', 'Set GAS_WEBAPP_URL di Vercel');
+            return;
+          }
+
+          if (json.status === 'success' && json.data) {
+            this.serverVersion = json.version || this.serverVersion;
+            const d = json.data;
+            const hasCloudProducts = Array.isArray(d.products) && d.products.length > 0;
+            const hasCloudConfig = d.config && Object.keys(d.config).length > 0;
+
+            if (hasCloudProducts) appState.products = d.products;
+            if (Array.isArray(d.orders)) appState.orders = d.orders;
+            if (Array.isArray(d.logs)) appState.logs = d.logs;
+
+            if (hasCloudConfig) {
+              if (Array.isArray(d.config.builderBoxes) && d.config.builderBoxes.length) appState.builderBoxes = d.config.builderBoxes;
+              if (Array.isArray(d.config.builderItems) && d.config.builderItems.length) appState.builderItems = d.config.builderItems;
+              if (Array.isArray(d.config.testimonials) && d.config.testimonials.length) appState.testimonials = d.config.testimonials;
+              appState.config = { ...appState.config, ...d.config };
+            }
+
+            // Jika Google Sheets masih kosong saat pertama kali tayang di Vercel, otomatis isi data awal
+            if (seedIfEmpty && !hasCloudProducts && !hasCloudConfig) {
+              await this.pushFullSync('Inisialisasi Database Awal', 'Mengunggah katalog & pengaturan awal ke Google Sheets');
+              return;
+            }
+
+            this.saveLocalCache();
+            renderAllUI();
+            this.setBadgeStatus('online', 'Tersinkron Real-Time');
+          }
+        } catch (err) {
+          this.setBadgeStatus('offline', 'Mode Cache Lokal');
+        }
+      },
+
+      async checkVersionAndRefresh() {
+        if (this.isSyncing) return;
+        try {
+          const res = await fetch(`${this.apiEndpoint}?action=version&_t=${Date.now()}`, { cache: 'no-store' });
+          if (!res.ok) return;
+          const json = await res.json();
+          if (json.status === 'success' && json.version) {
+            if (this.serverVersion && String(json.version) !== String(this.serverVersion)) {
+              await this.pullFullState(false);
+            } else {
+              this.serverVersion = json.version;
+              this.setBadgeStatus('online', 'Tersinkron Real-Time');
+            }
+          }
+        } catch (e) {
+          // Silent background check
+        }
+      },
+
+      startRealTimePolling() {
+        if (this.pollTimer) clearInterval(this.pollTimer);
+        // Cek versi perubahan di server setiap 8 detik (sangat ringan & hemat kuota)
+        this.pollTimer = setInterval(() => {
+          if (!document.hidden) {
+            this.flushRetryQueue();
+            this.checkVersionAndRefresh();
+          }
+        }, 8000);
+      },
+
+      async postToCloud(payload) {
+        this.isSyncing = true;
+        this.setBadgeStatus('syncing', 'Menyimpan ke Sheets...');
+        payload.sourceHost = window.location.hostname || 'Vercel App';
+
+        try {
+          const res = await fetch(this.apiEndpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          const json = await res.json();
+          if (json.status === 'success') {
+            if (json.version) this.serverVersion = json.version;
+            this.setBadgeStatus('online', 'Tersimpan Real-Time');
+            return json;
+          }
+          throw new Error(json.message || 'Gagal sync');
+        } catch (err) {
+          this.retryQueue.push(payload);
+          this.setBadgeStatus('offline', `Antrean Sync (${this.retryQueue.length})`);
+          return null;
+        } finally {
+          this.isSyncing = false;
+        }
+      },
+
+      async flushRetryQueue() {
+        if (this.retryQueue.length === 0 || this.isSyncing) return;
+        const nextPayload = this.retryQueue.shift();
+        await this.postToCloud(nextPayload);
+      },
+
+      async pushFullSync(activity = 'Update Konten Admin', detail = 'Perubahan disimpan dari Dashboard') {
+        this.saveLocalCache();
+        const combinedConfig = {
+          ...appState.config,
+          builderBoxes: appState.builderBoxes,
+          builderItems: appState.builderItems,
+          testimonials: appState.testimonials
+        };
+
+        return await this.postToCloud({
+          action: 'syncAll',
+          activity,
+          detail,
+          products: appState.products,
+          orders: appState.orders,
+          config: combinedConfig
+        });
+      }
+    };
+
+    // =========================================================================
+    // HELPERS & FORMATTING
+    // =========================================================================
+    function formatRp(num) {
+      return 'Rp ' + Number(num || 0).toLocaleString('id-ID');
+    }
+
+    function showToast(msg) {
+      const box = document.getElementById('toast-box');
+      box.textContent = msg;
+      box.classList.remove('hidden');
+      clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => box.classList.add('hidden'), 3200);
+    }
+
+    function compressImageToBase64(file, maxWidth = 900, quality = 0.82) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const img = new Image();
+          img.onload = () => {
+            const canvas = document.createElement('canvas');
+            const scale = Math.min(1, maxWidth / img.width);
+            canvas.width = Math.round(img.width * scale);
+            canvas.height = Math.round(img.height * scale);
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+            resolve(canvas.toDataURL('image/jpeg', quality));
+          };
+          img.onerror = reject;
+          img.src = e.target.result;
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // =========================================================================
+    // RENDER UI SECTIONS
+    // =========================================================================
+    function applyConfigToUI() {
+      const c = appState.config;
+      document.title = c.seoTitle || DEFAULT_DATA.config.seoTitle;
+      const metaDesc = document.getElementById('meta-desc');
+      if (metaDesc) metaDesc.setAttribute('content', c.seoDesc || '');
+
+      document.body.classList.remove('theme-lebaran', 'theme-natal', 'theme-imlek');
+      if (c.theme && c.theme !== 'default') {
+        document.body.classList.add('theme-' + c.theme);
+      }
+
+      document.getElementById('event-banner-text').textContent = c.bannerText || '';
+      document.getElementById('hero-badge-text').textContent = c.heroBadge || '';
+      document.getElementById('hero-title').textContent = c.heroTitle || '';
+      document.getElementById('hero-subtitle').textContent = c.heroSubtitle || '';
+      document.getElementById('hero-cta1-text').textContent = c.heroCta1 || 'Jelajahi Katalog Hampers';
+      document.getElementById('hero-cta2-text').textContent = c.heroCta2 || 'Pesan Custom / Corporate';
+      document.getElementById('hero-main-img').src = c.heroImg || DEFAULT_DATA.config.heroImg;
+      document.getElementById('hero-featured-title').textContent = c.heroFeatTitle || '';
+      document.getElementById('hero-featured-price').textContent = c.heroFeatPrice || '';
+
+      const logoImg = document.getElementById('brand-logo-img');
+      const logoFallback = document.getElementById('brand-logo-fallback');
+      if (c.logoImg) {
+        logoImg.src = c.logoImg;
+        logoImg.classList.remove('hidden');
+        logoFallback.classList.add('hidden');
+      } else {
+        logoImg.classList.add('hidden');
+        logoFallback.classList.remove('hidden');
+      }
+
+      const waPretty = (c.whatsapp || '6281234567890').replace(/^62/, '+62 ');
+      document.getElementById('footer-wa-display').textContent = 'WhatsApp: ' + waPretty;
+    }
+
+    function renderTrustSignals() {
+      const grid = document.getElementById('trust-signals-grid');
+      grid.innerHTML = appState.trustSignals.map(item => `
+        <div class="bg-white/90 p-5 rounded-2xl border border-luxury-gold/25 shadow-xs h-full flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-luxury-primary text-luxury-gold flex items-center justify-center text-lg shrink-0">${item.icon}</div>
+          <div>
+            <h3 class="font-bold text-sm text-luxury-primary">${item.title}</h3>
+            <p class="text-xs text-luxury-charcoal/70 mt-1 leading-relaxed">${item.desc}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function setCategoryFilter(cat) {
+      appState.activeCategory = cat;
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        if (btn.dataset.cat === cat) {
+          btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-primary text-white whitespace-nowrap transition';
+        } else {
+          btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-luxury-sand text-luxury-primary hover:bg-luxury-gold/20 whitespace-nowrap transition';
+        }
+      });
+      renderCatalog();
+    }
+
+    function renderCatalog() {
+      const grid = document.getElementById('catalog-grid');
+      const priceFilter = document.getElementById('price-filter').value;
+
+      const filtered = appState.products.filter(p => {
+        const matchCat = appState.activeCategory === 'Semua' || p.category === appState.activeCategory;
+        let matchPrice = true;
+        if (priceFilter === 'under350') matchPrice = p.price < 350000;
+        else if (priceFilter === '350to750') matchPrice = p.price >= 350000 && p.price <= 750000;
+        else if (priceFilter === 'above750') matchPrice = p.price > 750000;
+        return matchCat && matchPrice;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div class="col-span-full text-center py-12 bg-white rounded-2xl border border-luxury-gold/25 text-sm text-luxury-charcoal/70">Tidak ada paket hampers pada filter kategori/harga ini.</div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(p => {
+        const fitClass = p.imageFit === 'contain' ? 'object-contain p-3 bg-luxury-sand/50' : 'object-cover';
+        const posClass = p.imagePos || 'object-center';
+        const itemsPreview = (p.items || []).slice(0, 3).join(' • ');
+
+        return `
+          <article class="group bg-white rounded-3xl overflow-hidden border border-luxury-gold/25 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+            <div class="relative aspect-[4/3] overflow-hidden bg-luxury-sand">
+              <img src="${p.image}" alt="${p.name}" loading="lazy" class="w-full h-full ${fitClass} ${posClass} group-hover:scale-105 transition duration-500" />
+              ${p.badge ? `<span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-luxury-primary text-luxury-gold text-[11px] font-bold shadow-md">${p.badge}</span>` : ''}
+              <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-full bg-white/90 text-luxury-primary text-[10px] font-bold">${p.category}</span>
+            </div>
+
+            <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="font-serif text-2xl font-bold text-luxury-primary group-hover:text-luxury-gold transition">${p.name}</h3>
+                <p class="text-xs text-luxury-charcoal/70 mt-1.5 line-clamp-2 leading-relaxed">${itemsPreview}</p>
+              </div>
+
+              <div class="pt-3 border-t border-luxury-gold/20 space-y-3">
+                <div class="flex items-baseline justify-between">
+                  <div>
+                    <span class="text-[10px] uppercase tracking-wider text-luxury-charcoal/55 block">Harga Paket</span>
+                    <span class="font-serif text-2xl font-bold text-luxury-primary">${formatRp(p.price)}</span>
+                  </div>
+                  <span class="text-[11px] text-emerald-700 font-semibold bg-emerald-50 px-2.5 py-1 rounded-lg">Free Card</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2">
+                  <button onclick="openProductDetail('${p.id}')" class="py-2.5 px-3 rounded-xl border border-luxury-gold/50 text-luxury-primary text-xs font-semibold hover:bg-luxury-sand transition">
+                    Lihat Detail
+                  </button>
+                  <button onclick="addToCart('${p.id}')" class="py-2.5 px-3 rounded-xl bg-luxury-primary text-white text-xs font-semibold hover:bg-luxury-primaryDark transition">
+                    + Keranjang
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    // =========================================================================
+    // CUSTOM HAMPER BUILDER
+    // =========================================================================
+    function renderBuilder() {
+      const boxGrid = document.getElementById('builder-boxes-grid');
+      if (!appState.builderBoxes.some(b => b.id === appState.selectedBoxId) && appState.builderBoxes.length) {
+        appState.selectedBoxId = appState.builderBoxes[0].id;
+      }
+
+      boxGrid.innerHTML = appState.builderBoxes.map(box => {
+        const active = box.id === appState.selectedBoxId;
+        return `
+          <button type="button" onclick="selectBuilderBox('${box.id}')" class="p-4 rounded-2xl border-2 text-left transition ${active ? 'border-luxury-gold bg-luxury-gold/20' : 'border-white/15 bg-white/5 hover:border-white/35'}">
+            <span class="text-[10px] uppercase tracking-wider text-luxury-goldLight font-bold block">Maks ${box.capacity} Item</span>
+            <span class="font-bold text-sm text-white block mt-0.5">${box.name}</span>
+            <span class="text-xs text-white/80 mt-1 block">${formatRp(box.price)}</span>
+          </button>
+        `;
+      }).join('');
+
+      const itemGrid = document.getElementById('builder-items-grid');
+      itemGrid.innerHTML = appState.builderItems.map(item => {
+        const count = appState.selectedBuilderItems.filter(id => id === item.id).length;
+        return `
+          <div class="p-3.5 rounded-xl bg-white/10 border border-white/15 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-luxury-goldLight font-semibold">${item.tag || 'Artisan'}</span>
+              <p class="text-xs sm:text-sm font-semibold text-white">${item.name}</p>
+              <p class="text-xs text-white/75">${formatRp(item.price)}</p>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <button type="button" onclick="changeBuilderItem('${item.id}', -1)" class="w-7 h-7 rounded-lg bg-white/15 hover:bg-white/25 text-white font-bold">-</button>
+              <span class="w-5 text-center text-xs font-bold">${count}</span>
+              <button type="button" onclick="changeBuilderItem('${item.id}', 1)" class="w-7 h-7 rounded-lg bg-luxury-gold text-luxury-primary font-bold">+</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      updateBuilderSummary();
+    }
+
+    function selectBuilderBox(boxId) {
+      appState.selectedBoxId = boxId;
+      const box = appState.builderBoxes.find(b => b.id === boxId);
+      if (box && appState.selectedBuilderItems.length > box.capacity) {
+        appState.selectedBuilderItems = appState.selectedBuilderItems.slice(0, box.capacity);
+      }
+      renderBuilder();
+    }
+
+    function changeBuilderItem(itemId, delta) {
+      const box = appState.builderBoxes.find(b => b.id === appState.selectedBoxId);
+      const maxCap = box ? Number(box.capacity) : 5;
+
+      if (delta > 0) {
+        if (appState.selectedBuilderItems.length >= maxCap) {
+          showToast(`Kapasitas wadah maksimal ${maxCap} item.`);
+          return;
+        }
+        appState.selectedBuilderItems.push(itemId);
+      } else {
+        const idx = appState.selectedBuilderItems.indexOf(itemId);
+        if (idx !== -1) appState.selectedBuilderItems.splice(idx, 1);
+      }
+      renderBuilder();
+    }
+
+    function updateBuilderSummary() {
+      const box = appState.builderBoxes.find(b => b.id === appState.selectedBoxId) || { name: '-', price: 0, capacity: 5 };
+      document.getElementById('builder-capacity-label').textContent = `Terpilih: ${appState.selectedBuilderItems.length} / ${box.capacity} Slot`;
+      document.getElementById('summary-box-name').textContent = `${box.name} (${formatRp(box.price)})`;
+
+      let total = Number(box.price || 0);
+      const listEl = document.getElementById('summary-items-list');
+
+      if (appState.selectedBuilderItems.length === 0) {
+        listEl.innerHTML = `<li class="italic text-luxury-charcoal/50">Belum ada produk dipilih</li>`;
+      } else {
+        const counts = {};
+        appState.selectedBuilderItems.forEach(id => { counts[id] = (counts[id] || 0) + 1; });
+        listEl.innerHTML = Object.entries(counts).map(([id, qty]) => {
+          const it = appState.builderItems.find(x => x.id === id);
+          if (!it) return '';
+          total += Number(it.price) * qty;
+          return `<li>${it.name} (${qty}x) — ${formatRp(it.price * qty)}</li>`;
+        }).join('');
+      }
+
+      document.getElementById('builder-total-price').textContent = formatRp(total);
+      document.getElementById('preview-card-to').textContent = document.getElementById('builder-card-to').value || 'Penerima';
+      document.getElementById('preview-card-from').textContent = document.getElementById('builder-card-from').value || 'Pengirim';
+      const msg = document.getElementById('builder-card-msg').value;
+      document.getElementById('preview-card-msg').textContent = msg ? `"${msg}"` : '"Semoga bingkisan ini membawa kehangatan dan kebahagiaan."';
+    }
+
+    function addCustomHamperToCart() {
+      if (appState.selectedBuilderItems.length === 0) {
+        showToast('Pilih minimal 1 item isian hampers terlebih dahulu.');
+        return;
+      }
+      const box = appState.builderBoxes.find(b => b.id === appState.selectedBoxId);
+      let total = Number(box.price);
+      const itemNames = [];
+      appState.selectedBuilderItems.forEach(id => {
+        const it = appState.builderItems.find(x => x.id === id);
+        if (it) {
+          total += Number(it.price);
+          itemNames.push(it.name);
+        }
+      });
+
+      const customId = 'CUSTOM-' + Date.now();
+      appState.cart.push({
+        id: customId,
+        name: `Custom Hamper (${box.name})`,
+        price: total,
+        qty: 1,
+        image: appState.config.heroImg || DEFAULT_DATA.config.heroImg,
+        subtitle: itemNames.join(', ')
+      });
+
+      // Salin pesan kartu ucapan ke form checkout otomatis
+      const bTo = document.getElementById('builder-card-to').value;
+      const bFrom = document.getElementById('builder-card-from').value;
+      const bMsg = document.getElementById('builder-card-msg').value;
+      if (bTo) document.getElementById('chk-card-to').value = bTo;
+      if (bFrom) document.getElementById('chk-card-from').value = bFrom;
+      if (bMsg) document.getElementById('chk-card-msg').value = bMsg;
+
+      updateCartUI();
+      openCart();
+      showToast('Custom Hamper ditambahkan ke keranjang!');
+    }
+
+    function renderTestimonials() {
+      const grid = document.getElementById('testimonials-grid');
+      grid.innerHTML = appState.testimonials.map(t => `
+        <div class="bg-white p-6 rounded-3xl border border-luxury-gold/25 shadow-sm flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="text-luxury-gold text-sm tracking-widest">★★★★★</div>
+            <p class="text-xs sm:text-sm text-luxury-charcoal/80 leading-relaxed italic">"${t.text}"</p>
+          </div>
+          <div class="pt-3 border-t border-luxury-gold/15">
+            <p class="font-bold text-sm text-luxury-primary">${t.name}</p>
+            <p class="text-[11px] text-luxury-charcoal/60">${t.role}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderAllUI() {
+      applyConfigToUI();
+      renderTrustSignals();
+      renderCatalog();
+      renderBuilder();
+      renderTestimonials();
+      updateCartUI();
+      if (!document.getElementById('admin-dashboard-modal').classList.contains('hidden')) {
+        renderAdminLists();
+      }
+    }
+
+    // =========================================================================
+    // PRODUCT DETAIL & SHOPPING CART
+    // =========================================================================
+    function openProductDetail(prodId) {
+      const p = appState.products.find(x => x.id === prodId);
+      if (!p) return;
+      const imgEl = document.getElementById('detail-img');
+      imgEl.src = p.image;
+      imgEl.className = `w-full h-full ${p.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'} ${p.imagePos || 'object-center'}`;
+      document.getElementById('detail-badge').textContent = p.badge || 'Signature';
+      document.getElementById('detail-cat').textContent = p.category;
+      document.getElementById('detail-title').textContent = p.name;
+      document.getElementById('detail-price').textContent = formatRp(p.price);
+      document.getElementById('detail-desc').textContent = p.description || '';
+      document.getElementById('detail-items').innerHTML = (p.items || []).map(i => `<li>${i}</li>`).join('');
+      document.getElementById('detail-add-btn').onclick = () => {
+        addToCart(p.id);
+        closeProductDetail();
+      };
+      const modal = document.getElementById('product-detail-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeProductDetail() {
+      const modal = document.getElementById('product-detail-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function addToCart(prodId) {
+      const p = appState.products.find(x => x.id === prodId);
+      if (!p) return;
+      const existing = appState.cart.find(c => c.id === prodId);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        appState.cart.push({
+          id: p.id,
+          name: p.name,
+          price: p.price,
+          qty: 1,
+          image: p.image,
+          subtitle: (p.items || []).slice(0, 2).join(', ')
+        });
+      }
+      updateCartUI();
+      showToast(`"${p.name}" ditambahkan ke keranjang`);
+    }
+
+    function updateCartQty(idx, delta) {
+      if (!appState.cart[idx]) return;
+      appState.cart[idx].qty += delta;
+      if (appState.cart[idx].qty <= 0) {
+        appState.cart.splice(idx, 1);
+      }
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const totalCount = appState.cart.reduce((sum, item) => sum + item.qty, 0);
+      document.getElementById('cart-badge').textContent = totalCount;
+
+      const container = document.getElementById('cart-items-container');
+      let totalRp = 0;
+
+      if (appState.cart.length === 0) {
+        container.innerHTML = `<div class="p-6 text-center bg-white rounded-2xl border border-dashed border-luxury-gold/40 text-xs text-luxury-charcoal/60">Keranjang Anda masih kosong. Silakan pilih paket hampers dari katalog atau rakit sendiri.</div>`;
+      } else {
+        container.innerHTML = appState.cart.map((item, idx) => {
+          totalRp += item.price * item.qty;
+          return `
+            <div class="bg-white p-3.5 rounded-2xl border border-luxury-gold/25 flex items-center gap-3">
+              <img src="${item.image}" alt="${item.name}" class="w-16 h-16 rounded-xl object-cover shrink-0 bg-luxury-sand" />
+              <div class="flex-1 min-w-0">
+                <h5 class="font-bold text-xs sm:text-sm text-luxury-primary truncate">${item.name}</h5>
+                <p class="text-[11px] text-luxury-charcoal/60 truncate">${item.subtitle || ''}</p>
+                <p class="text-xs font-bold text-luxury-gold mt-0.5">${formatRp(item.price)}</p>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <button type="button" onclick="updateCartQty(${idx}, -1)" class="w-7 h-7 rounded-lg bg-luxury-sand text-luxury-primary font-bold text-xs">-</button>
+                <span class="w-5 text-center text-xs font-bold">${item.qty}</span>
+                <button type="button" onclick="updateCartQty(${idx}, 1)" class="w-7 h-7 rounded-lg bg-luxury-primary text-white font-bold text-xs">+</button>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      document.getElementById('cart-total-display').textContent = formatRp(totalRp);
+    }
+
+    function openCart() {
+      document.getElementById('cart-drawer').classList.remove('hidden');
+    }
+
+    function closeCart() {
+      document.getElementById('cart-drawer').classList.add('hidden');
+    }
+
+    // =========================================================================
+    // DIRECT CHECKOUT, B2B QUOTATION & INVOICE PAYMENT
+    // =========================================================================
+    async function processDirectCheckout(e) {
+      e.preventDefault();
+      if (appState.cart.length === 0) {
+        showToast('Keranjang belanja masih kosong.');
+        return;
+      }
+
+      const senderName = document.getElementById('chk-sender-name').value.trim();
+      const senderWa = document.getElementById('chk-sender-wa').value.trim();
+      const recipientName = document.getElementById('chk-recipient-name').value.trim();
+      const deliveryDate = document.getElementById('chk-delivery-date').value;
+      const address = document.getElementById('chk-address').value.trim();
+      const cardTo = document.getElementById('chk-card-to').value.trim();
+      const cardFrom = document.getElementById('chk-card-from').value.trim();
+      const cardMsg = document.getElementById('chk-card-msg').value.trim();
+      const payment = document.getElementById('chk-payment').value;
+
+      const total = appState.cart.reduce((sum, i) => sum + (i.price * i.qty), 0);
+      const itemsSummary = appState.cart.map(i => `${i.name} (${i.qty}x)`).join(', ');
+      const invoiceId = 'CP-' + Math.floor(100000 + Math.random() * 900000);
+
+      const orderObj = {
+        id: invoiceId,
+        type: 'Direct Checkout',
+        status: 'Baru / Menunggu Bayar',
+        date: new Date().toLocaleString('id-ID'),
+        customer: `${senderName} (${senderWa})`,
+        recipient: `${recipientName} | Kirim: ${deliveryDate} | ${address}`,
+        total: total,
+        payment: payment,
+        items: itemsSummary,
+        greetingCard: `Untuk: ${cardTo} | Dari: ${cardFrom} | Pesan: ${cardMsg}`,
+        trackingInfo: ''
+      };
+
+      appState.orders.unshift(orderObj);
+      appState.lastInvoiceId = invoiceId;
+      CraveRealTimeEngine.saveLocalCache();
+
+      // Kirim real-time ke Google Sheets melalui Vercel Bridge
+      CraveRealTimeEngine.postToCloud({
+        action: 'createOrder',
+        order: orderObj
+      });
+
+      appState.cart = [];
+      updateCartUI();
+      closeCart();
+      showInvoiceModal(orderObj);
+    }
+
+    function showInvoiceModal(order) {
+      const c = appState.config;
+      document.getElementById('inv-id').textContent = order.id;
+      document.getElementById('inv-total').textContent = formatRp(order.total);
+      document.getElementById('inv-method').textContent = order.payment;
+
+      const payBox = document.getElementById('inv-payment-details');
+      if (order.payment.includes('QRIS')) {
+        payBox.innerHTML = `
+          <p class="text-xs font-bold text-luxury-primary">Scan QRIS Resmi Crave Parcel</p>
+          ${c.qrisImg
+            ? `<img src="${c.qrisImg}" alt="QRIS Crave Parcel" class="w-48 h-48 mx-auto rounded-xl bg-white p-2 border border-luxury-gold/40 object-contain" />`
+            : `<div class="p-4 rounded-xl bg-white border border-dashed border-luxury-gold text-xs text-luxury-charcoal/70">QRIS dapat diminta langsung via WhatsApp Admin atau gunakan Transfer Bank di bawah:<br><strong class="text-luxury-primary mt-1 block">${c.bank1Name}: ${c.bank1Acc} (${c.bank1Holder})</strong></div>`
+          }
+          <p class="text-[11px] text-luxury-charcoal/70">Mendukung BCA Mobile, Livin Mandiri, GoPay, OVO, DANA & ShopeePay</p>
+        `;
+      } else if (order.payment.includes('E-Wallet')) {
+        payBox.innerHTML = `
+          <p class="text-xs font-bold text-luxury-primary">Pembayaran E-Wallet</p>
+          <p class="text-xs bg-white p-3 rounded-xl border border-luxury-gold/30 font-semibold text-luxury-primary">${c.ewalletInfo}</p>
+        `;
+      } else {
+        payBox.innerHTML = `
+          <p class="text-xs font-bold text-luxury-primary">Transfer Bank / Virtual Account</p>
+          <div class="space-y-2 text-left">
+            <div class="p-3 rounded-xl bg-white border border-luxury-gold/30 flex items-center justify-between gap-2">
+              <div>
+                <span class="text-[10px] font-bold text-luxury-gold block">${c.bank1Name}</span>
+                <span class="font-bold text-sm text-luxury-primary">${c.bank1Acc}</span>
+                <span class="text-[11px] text-gray-500 block">a.n. ${c.bank1Holder}</span>
+              </div>
+              <button type="button" onclick="copyText('${c.bank1Acc}')" class="px-2.5 py-1.5 rounded-lg bg-luxury-sand text-luxury-primary text-[11px] font-bold">Salin</button>
+            </div>
+            ${c.bank2Acc ? `
+              <div class="p-3 rounded-xl bg-white border border-luxury-gold/30 flex items-center justify-between gap-2">
+                <div>
+                  <span class="text-[10px] font-bold text-luxury-gold block">${c.bank2Name}</span>
+                  <span class="font-bold text-sm text-luxury-primary">${c.bank2Acc}</span>
+                  <span class="text-[11px] text-gray-500 block">a.n. ${c.bank2Holder}</span>
+                </div>
+                <button type="button" onclick="copyText('${c.bank2Acc}')" class="px-2.5 py-1.5 rounded-lg bg-luxury-sand text-luxury-primary text-[11px] font-bold">Salin</button>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
+
+      const waNumber = (c.whatsapp || '6281234567890').replace(/\D/g, '');
+      const waText = encodeURIComponent(
+        `Halo Crave Parcel! Saya ingin konfirmasi pesanan:\n` +
+        `• No. Invoice: *${order.id}*\n` +
+        `• Pemesan: ${order.customer}\n` +
+        `• Paket: ${order.items}\n` +
+        `• Tujuan: ${order.recipient}\n` +
+        `• Kartu Ucapan: ${order.greetingCard}\n` +
+        `• Total: *${formatRp(order.total)}* (${order.payment})`
+      );
+      document.getElementById('inv-wa-btn').href = `https://wa.me/${waNumber}?text=${waText}`;
+
+      const modal = document.getElementById('invoice-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeInvoiceModal() {
+      const modal = document.getElementById('invoice-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function copyText(txt) {
+      navigator.clipboard.writeText(txt);
+      showToast('Nomor rekening berhasil disalin: ' + txt);
+    }
+
+    function submitCorporateQuote(e) {
+      e.preventDefault();
+      const pic = document.getElementById('b2b-pic').value.trim();
+      const company = document.getElementById('b2b-company').value.trim();
+      const wa = document.getElementById('b2b-wa').value.trim();
+      const qty = document.getElementById('b2b-qty').value;
+      const budget = document.getElementById('b2b-budget').value.trim() || 'Fleksibel';
+      const targetDate = document.getElementById('b2b-date').value || 'Segera';
+      const notes = document.getElementById('b2b-notes').value.trim() || '-';
+
+      const leadId = 'B2B-' + Math.floor(1000 + Math.random() * 9000);
+      const leadOrder = {
+        id: leadId,
+        type: 'Corporate B2B',
+        status: 'Penawaran Diajukan',
+        date: new Date().toLocaleString('id-ID'),
+        customer: `${pic} (${wa})`,
+        recipient: `${company} | Target: ${targetDate}`,
+        total: 0,
+        payment: 'Corporate Invoice',
+        items: `${qty} (Budget: ${budget})`,
+        greetingCard: notes,
+        trackingInfo: ''
+      };
+
+      appState.orders.unshift(leadOrder);
+      CraveRealTimeEngine.saveLocalCache();
+      CraveRealTimeEngine.postToCloud({ action: 'createOrder', order: leadOrder });
+
+      const adminWa = (appState.config.whatsapp || '6281234567890').replace(/\D/g, '');
+      const text = encodeURIComponent(
+        `Halo Corporate Concierge Crave Parcel, saya ingin mengajukan penawaran B2B:\n` +
+        `• Kode Ref: *${leadId}*\n` +
+        `• PIC / Perusahaan: ${pic} — ${company}\n` +
+        `• Jumlah Paket: ${qty}\n` +
+        `• Estimasi Budget: ${budget}\n` +
+        `• Target Kirim: ${targetDate}\n` +
+        `• Catatan: ${notes}`
+      );
+      window.open(`https://wa.me/${adminWa}?text=${text}`, '_blank');
+      e.target.reset();
+      showToast('Permintaan penawaran B2B tercatat & diarahkan ke WhatsApp!');
+    }
+
+    // =========================================================================
+    // CUSTOMER REAL-TIME ORDER TRACKING
+    // =========================================================================
+    function openTrackingModal() {
+      const modal = document.getElementById('tracking-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function openTrackingWithId() {
+      closeInvoiceModal();
+      openTrackingModal();
+      if (appState.lastInvoiceId) {
+        document.getElementById('tracking-query-input').value = appState.lastInvoiceId;
+        searchCustomerOrder(new Event('submit'));
+      }
+    }
+
+    function closeTrackingModal() {
+      const modal = document.getElementById('tracking-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    async function searchCustomerOrder(e) {
+      e.preventDefault();
+      const q = document.getElementById('tracking-query-input').value.trim();
+      if (!q) return;
+
+      const box = document.getElementById('tracking-result-container');
+      box.innerHTML = `<div class="text-center py-6 text-xs text-luxury-primary font-semibold sync-pulse">Mencari data real-time dari server...</div>`;
+
+      let matched = [];
+      try {
+        const res = await fetch(`${CraveRealTimeEngine.apiEndpoint}?action=trackOrder&query=${encodeURIComponent(q)}&_t=${Date.now()}`);
+        if (res.ok) {
+          const json = await res.json();
+          if (json.status === 'success' && Array.isArray(json.orders)) {
+            matched = json.orders;
+          }
+        }
+      } catch (err) {
+        // Fallback ke state lokal bila offline
+      }
+
+      if (matched.length === 0) {
+        const low = q.toLowerCase();
+        matched = appState.orders.filter(o =>
+          String(o.id).toLowerCase() === low || String(o.customer).toLowerCase().includes(low)
+        );
+      }
+
+      if (matched.length === 0) {
+        box.innerHTML = `<div class="p-5 rounded-2xl bg-rose-50 border border-rose-200 text-xs text-rose-800 text-center">Pesanan dengan nomor invoice / WhatsApp <strong>"${q}"</strong> tidak ditemukan. Pastikan penulisan sudah sesuai.</div>`;
+        return;
+      }
+
+      box.innerHTML = matched.map(o => {
+        const st = (o.status || '').toLowerCase();
+        let step = 1;
+        if (st.includes('rakit') || st.includes('proses') || st.includes('lunas')) step = 2;
+        if (st.includes('kirim')) step = 3;
+        if (st.includes('selesai') || st.includes('tiba')) step = 4;
+
+        return `
+          <div class="p-5 rounded-2xl bg-luxury-cream border border-luxury-gold/40 space-y-4">
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-luxury-gold/20 pb-3">
+              <div>
+                <span class="text-[10px] uppercase tracking-wider font-bold text-luxury-gold">${o.type}</span>
+                <h4 class="font-serif text-xl font-bold text-luxury-primary">Invoice #${o.id}</h4>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-luxury-primary text-luxury-gold text-xs font-bold">${o.status}</span>
+            </div>
+
+            <!-- 4-Step Progress -->
+            <div class="grid grid-cols-4 gap-1.5 text-center text-[10px] font-semibold">
+              <div class="p-2 rounded-xl ${step >= 1 ? 'bg-luxury-primary text-white' : 'bg-white text-gray-400'}">1. Diterima</div>
+              <div class="p-2 rounded-xl ${step >= 2 ? 'bg-luxury-primary text-white' : 'bg-white text-gray-400'}">2. Perakitan</div>
+              <div class="p-2 rounded-xl ${step >= 3 ? 'bg-luxury-primary text-white' : 'bg-white text-gray-400'}">3. Dikirim</div>
+              <div class="p-2 rounded-xl ${step >= 4 ? 'bg-emerald-700 text-white' : 'bg-white text-gray-400'}">4. Tiba</div>
+            </div>
+
+            <div class="text-xs space-y-1.5 text-luxury-charcoal/85">
+              <p><strong>Paket:</strong> ${o.items}</p>
+              <p><strong>Tujuan:</strong> ${o.recipient}</p>
+              ${o.trackingInfo ? `<div class="p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-900 font-semibold mt-2">🚚 Info Kurir & Resi: ${o.trackingInfo}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // =========================================================================
+    // PRIVATE ADMIN DASHBOARD & REAL-TIME SYNC CONTROLS
+    // =========================================================================
+    function openAdminAuth() {
+      document.getElementById('admin-pin-input').value = '';
+      document.getElementById('admin-pin-error').classList.add('hidden');
+      const m = document.getElementById('admin-auth-modal');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+    }
+
+    function closeAdminAuth() {
+      const m = document.getElementById('admin-auth-modal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+    }
+
+    function verifyAdminPin(e) {
+      e.preventDefault();
+      const inputPin = document.getElementById('admin-pin-input').value.trim();
+      const validPin = String(appState.config.adminPin || '2026');
+      if (inputPin === validPin) {
+        closeAdminAuth();
+        openAdminDashboard();
+      } else {
+        document.getElementById('admin-pin-error').classList.remove('hidden');
+      }
+    }
+
+    function openAdminDashboard() {
+      populateAdminForms();
+      renderAdminLists();
+      document.getElementById('admin-dashboard-modal').classList.remove('hidden');
+      CraveRealTimeEngine.pullFullState(false);
+    }
+
+    function closeAdminDashboard() {
+      document.getElementById('admin-dashboard-modal').classList.add('hidden');
+    }
+
+    function switchAdminTab(tabName) {
+      document.querySelectorAll('.admin-tab-panel').forEach(p => p.classList.add('hidden'));
+      document.getElementById('admin-tab-' + tabName).classList.remove('hidden');
+
+      document.querySelectorAll('.admin-tab-btn').forEach(btn => {
+        if (btn.dataset.tab === tabName) {
+          btn.className = 'admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-luxury-primary text-luxury-primary whitespace-nowrap';
+        } else {
+          btn.className = 'admin-tab-btn px-4 py-3.5 text-xs font-bold border-b-2 border-transparent text-gray-500 whitespace-nowrap';
+        }
+      });
+    }
+
+    function populateAdminForms() {
+      const c = appState.config;
+      document.getElementById('adm-hero-badge').value = c.heroBadge || '';
+      document.getElementById('adm-hero-title').value = c.heroTitle || '';
+      document.getElementById('adm-hero-subtitle').value = c.heroSubtitle || '';
+      document.getElementById('adm-hero-cta1').value = c.heroCta1 || '';
+      document.getElementById('adm-hero-cta2').value = c.heroCta2 || '';
+      document.getElementById('adm-hero-feat-title').value = c.heroFeatTitle || '';
+      document.getElementById('adm-hero-feat-price').value = c.heroFeatPrice || '';
+      document.getElementById('adm-banner-text').value = c.bannerText || '';
+
+      document.getElementById('adm-set-wa').value = c.whatsapp || '';
+      document.getElementById('adm-set-pin').value = c.adminPin || '2026';
+      document.getElementById('adm-set-seo-title').value = c.seoTitle || '';
+      document.getElementById('adm-set-seo-desc').value = c.seoDesc || '';
+      document.getElementById('adm-bank1-name').value = c.bank1Name || '';
+      document.getElementById('adm-bank1-acc').value = c.bank1Acc || '';
+      document.getElementById('adm-bank1-holder').value = c.bank1Holder || '';
+      document.getElementById('adm-bank2-name').value = c.bank2Name || '';
+      document.getElementById('adm-bank2-acc').value = c.bank2Acc || '';
+      document.getElementById('adm-bank2-holder').value = c.bank2Holder || '';
+      document.getElementById('adm-ewallet-info').value = c.ewalletInfo || '';
+
+      if (c.qrisImg) {
+        const prev = document.getElementById('adm-qris-preview');
+        prev.src = c.qrisImg;
+        prev.classList.remove('hidden');
+        document.getElementById('adm-qris-placeholder').classList.add('hidden');
+      }
+
+      document.getElementById('adm-endpoint-info').textContent = 'Terhubung otomatis ke endpoint: ' + CraveRealTimeEngine.apiEndpoint;
+    }
+
+    function renderAdminLists() {
+      // 1. Products List
+      document.getElementById('admin-products-list').innerHTML = appState.products.map(p => `
+        <div class="bg-white p-3.5 rounded-2xl border border-gray-200 flex gap-3 items-center">
+          <img src="${p.image}" class="w-16 h-16 rounded-xl object-cover shrink-0 bg-luxury-sand" />
+          <div class="flex-1 min-w-0">
+            <p class="font-bold text-xs text-luxury-primary truncate">${p.name}</p>
+            <p class="text-[11px] text-gray-500">${p.category} • ${formatRp(p.price)}</p>
+            <div class="flex gap-2 mt-1.5">
+              <button onclick="editAdminProduct('${p.id}')" class="px-2.5 py-1 rounded-lg bg-luxury-sand text-luxury-primary text-[11px] font-bold">Edit</button>
+              <button onclick="deleteAdminProduct('${p.id}')" class="px-2.5 py-1 rounded-lg bg-rose-50 text-rose-700 text-[11px] font-bold">Hapus</button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      // 2. Builder Lists
+      document.getElementById('adm-boxes-list').innerHTML = appState.builderBoxes.map(b => `
+        <div class="p-2.5 rounded-xl bg-luxury-cream flex items-center justify-between text-xs">
+          <span><strong>${b.name}</strong> (${formatRp(b.price)} • Maks ${b.capacity})</span>
+          <button onclick="deleteBuilderBox('${b.id}')" class="text-rose-600 font-bold px-2">Hapus</button>
+        </div>
+      `).join('');
+
+      document.getElementById('adm-bitems-list').innerHTML = appState.builderItems.map(i => `
+        <div class="p-2.5 rounded-xl bg-luxury-cream flex items-center justify-between text-xs">
+          <span><strong>${i.name}</strong> (${formatRp(i.price)})</span>
+          <button onclick="deleteBuilderItem('${i.id}')" class="text-rose-600 font-bold px-2">Hapus</button>
+        </div>
+      `).join('');
+
+      // 3. Testimonials List
+      document.getElementById('adm-testimonials-list').innerHTML = appState.testimonials.map((t, idx) => `
+        <div class="p-3 rounded-xl bg-luxury-cream flex items-center justify-between gap-2 text-xs">
+          <div><strong>${t.name}</strong> (${t.role}): "${t.text}"</div>
+          <button onclick="deleteTestimonial(${idx})" class="text-rose-600 font-bold shrink-0">Hapus</button>
+        </div>
+      `).join('');
+
+      // 4. Orders List
+      const orderBox = document.getElementById('admin-orders-list');
+      if (appState.orders.length === 0) {
+        orderBox.innerHTML = `<p class="text-xs text-gray-500">Belum ada pesanan masuk.</p>`;
+      } else {
+        orderBox.innerHTML = appState.orders.map((o, idx) => `
+          <div class="p-4 rounded-2xl bg-luxury-cream border border-luxury-gold/30 space-y-2.5 text-xs">
+            <div class="flex flex-wrap justify-between gap-2">
+              <span class="font-bold text-luxury-primary">#${o.id} — ${o.type} (${o.date})</span>
+              <span class="font-bold text-luxury-gold">${o.total ? formatRp(o.total) : 'Quotation B2B'}</span>
+            </div>
+            <p><strong>Pemesan:</strong> ${o.customer} | <strong>Tujuan:</strong> ${o.recipient}</p>
+            <p><strong>Item:</strong> ${o.items}</p>
+            <div class="grid sm:grid-cols-3 gap-2 pt-1">
+              <select id="ord-status-${idx}" class="px-2.5 py-1.5 rounded-lg border bg-white text-xs font-semibold">
+                <option value="Baru / Menunggu Bayar" ${o.status === 'Baru / Menunggu Bayar' ? 'selected' : ''}>Baru / Menunggu Bayar</option>
+                <option value="Lunas & Perakitan Hampers" ${o.status === 'Lunas & Perakitan Hampers' ? 'selected' : ''}>Lunas & Perakitan Hampers</option>
+                <option value="Dalam Pengiriman Kurir" ${o.status === 'Dalam Pengiriman Kurir' ? 'selected' : ''}>Dalam Pengiriman Kurir</option>
+                <option value="Pesanan Tiba / Selesai" ${o.status === 'Pesanan Tiba / Selesai' ? 'selected' : ''}>Pesanan Tiba / Selesai</option>
+              </select>
+              <input id="ord-resi-${idx}" type="text" value="${o.trackingInfo || ''}" placeholder="Nama Kurir & No. Resi..." class="px-2.5 py-1.5 rounded-lg border bg-white text-xs" />
+              <button onclick="updateAdminOrder(${idx})" class="px-3 py-1.5 rounded-lg bg-luxury-primary text-white font-bold">Simpan Status & Resi</button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 5. Audit Logs
+      const logBox = document.getElementById('admin-logs-list');
+      if (appState.logs.length === 0) {
+        logBox.innerHTML = `<p class="text-gray-500">Log aktivitas tercatat otomatis di tab Log_Aktivitas_Admin pada Google Sheets Anda.</p>`;
+      } else {
+        logBox.innerHTML = appState.logs.map(l => `
+          <div class="p-2.5 rounded-xl bg-luxury-cream border border-gray-200 flex justify-between gap-2">
+            <div><strong class="text-luxury-primary">${l.activity}</strong> — ${l.detail}</div>
+            <span class="text-[10px] text-gray-500 shrink-0">${l.time}</span>
+          </div>
+        `).join('');
+      }
+    }
+
+    // Product CRUD
+    async function handleProductImageUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const base64 = await compressImageToBase64(file, 700, 0.78);
+      document.getElementById('adm-prod-img-url').value = base64;
+      updateProductPreviewFrame();
+      showToast('Foto produk HD siap digunakan!');
+    }
+
+    function updateProductPreviewFrame() {
+      const url = document.getElementById('adm-prod-img-url').value || 'https://placehold.co/800x600/132A22/D4AF37?text=Preview+4:3';
+      const fit = document.getElementById('adm-prod-fit').value;
+      const pos = document.getElementById('adm-prod-pos').value;
+      const img = document.getElementById('adm-prod-preview-img');
+      img.src = url;
+      img.className = `w-full h-full ${fit === 'contain' ? 'object-contain p-2' : 'object-cover'} ${pos}`;
+    }
+
+    function saveAdminProduct(e) {
+      e.preventDefault();
+      const id = document.getElementById('adm-prod-id').value || ('CP-' + Math.floor(100 + Math.random() * 900));
+      const newProd = {
+        id,
+        name: document.getElementById('adm-prod-name').value.trim(),
+        category: document.getElementById('adm-prod-cat').value,
+        price: Number(document.getElementById('adm-prod-price').value),
+        badge: document.getElementById('adm-prod-badge').value.trim(),
+        image: document.getElementById('adm-prod-img-url').value.trim() || 'https://placehold.co/800x600/132A22/D4AF37?text=Crave+Parcel',
+        imageFit: document.getElementById('adm-prod-fit').value,
+        imagePos: document.getElementById('adm-prod-pos').value,
+        items: document.getElementById('adm-prod-items').value.split(',').map(s => s.trim()).filter(Boolean),
+        description: document.getElementById('adm-prod-desc').value.trim()
+      };
+
+      const idx = appState.products.findIndex(p => p.id === id);
+      if (idx !== -1) appState.products[idx] = newProd;
+      else appState.products.unshift(newProd);
+
+      resetAdminProductForm();
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Simpan Produk Katalog', newProd.name);
+      showToast('Produk disimpan & disinkronkan real-time!');
+    }
+
+    function editAdminProduct(id) {
+      const p = appState.products.find(x => x.id === id);
+      if (!p) return;
+      document.getElementById('adm-prod-id').value = p.id;
+      document.getElementById('adm-prod-name').value = p.name;
+      document.getElementById('adm-prod-cat').value = p.category;
+      document.getElementById('adm-prod-price').value = p.price;
+      document.getElementById('adm-prod-badge').value = p.badge || '';
+      document.getElementById('adm-prod-img-url').value = p.image || '';
+      document.getElementById('adm-prod-fit').value = p.imageFit || 'cover';
+      document.getElementById('adm-prod-pos').value = p.imagePos || 'object-center';
+      document.getElementById('adm-prod-items').value = (p.items || []).join(', ');
+      document.getElementById('adm-prod-desc').value = p.description || '';
+      updateProductPreviewFrame();
+    }
+
+    function deleteAdminProduct(id) {
+      appState.products = appState.products.filter(p => p.id !== id);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Hapus Produk Katalog', 'ID: ' + id);
+      showToast('Produk dihapus & disinkronkan.');
+    }
+
+    function resetAdminProductForm() {
+      document.getElementById('adm-prod-id').value = '';
+      document.getElementById('adm-prod-name').value = '';
+      document.getElementById('adm-prod-price').value = '';
+      document.getElementById('adm-prod-badge').value = '';
+      document.getElementById('adm-prod-img-url').value = '';
+      document.getElementById('adm-prod-items').value = '';
+      document.getElementById('adm-prod-desc').value = '';
+      updateProductPreviewFrame();
+    }
+
+    // Builder CRUD
+    function saveBuilderBox(e) {
+      e.preventDefault();
+      appState.builderBoxes.push({
+        id: 'BOX-' + Date.now(),
+        name: document.getElementById('adm-box-name').value.trim(),
+        price: Number(document.getElementById('adm-box-price').value),
+        capacity: Number(document.getElementById('adm-box-cap').value)
+      });
+      e.target.reset();
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Update Wadah Custom Builder', 'Menambah wadah baru');
+    }
+
+    function deleteBuilderBox(id) {
+      appState.builderBoxes = appState.builderBoxes.filter(b => b.id !== id);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Hapus Wadah Custom Builder', id);
+    }
+
+    function saveBuilderItem(e) {
+      e.preventDefault();
+      appState.builderItems.push({
+        id: 'BI-' + Date.now(),
+        name: document.getElementById('adm-bitem-name').value.trim(),
+        price: Number(document.getElementById('adm-bitem-price').value),
+        tag: document.getElementById('adm-bitem-tag').value.trim() || 'Artisan'
+      });
+      e.target.reset();
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Update Item Custom Builder', 'Menambah item isian baru');
+    }
+
+    function deleteBuilderItem(id) {
+      appState.builderItems = appState.builderItems.filter(i => i.id !== id);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Hapus Item Custom Builder', id);
+    }
+
+    // Hero, Testimonials, Theme & Settings
+    async function handleHeroImageUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      appState.config.heroImg = await compressImageToBase64(file, 950, 0.82);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Upload Foto Hero HD', 'Foto utama Hero diperbarui');
+      showToast('Foto Hero HD berhasil diunggah!');
+    }
+
+    function saveHeroAndTrustContent() {
+      appState.config.heroBadge = document.getElementById('adm-hero-badge').value;
+      appState.config.heroTitle = document.getElementById('adm-hero-title').value;
+      appState.config.heroSubtitle = document.getElementById('adm-hero-subtitle').value;
+      appState.config.heroCta1 = document.getElementById('adm-hero-cta1').value;
+      appState.config.heroCta2 = document.getElementById('adm-hero-cta2').value;
+      appState.config.heroFeatTitle = document.getElementById('adm-hero-feat-title').value;
+      appState.config.heroFeatPrice = document.getElementById('adm-hero-feat-price').value;
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Edit Konten Hero', appState.config.heroTitle);
+      showToast('Konten Hero disimpan & disinkronkan!');
+    }
+
+    function addTestimonial(e) {
+      e.preventDefault();
+      appState.testimonials.unshift({
+        name: document.getElementById('adm-testi-name').value.trim(),
+        role: document.getElementById('adm-testi-role').value.trim(),
+        text: document.getElementById('adm-testi-text').value.trim()
+      });
+      e.target.reset();
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Tambah Testimoni Klien', 'Testimoni baru ditambahkan');
+    }
+
+    function deleteTestimonial(idx) {
+      appState.testimonials.splice(idx, 1);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Hapus Testimoni Klien', 'Index: ' + idx);
+    }
+
+    function applyThemePreset(themeName) {
+      appState.config.theme = themeName;
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Ubah Tema Event', 'Tema aktif: ' + themeName);
+      showToast('Tema event diubah ke: ' + themeName.toUpperCase());
+    }
+
+    async function handleLogoUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      appState.config.logoImg = await compressImageToBase64(file, 360, 0.85);
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Upload Logo Brand HD', 'Logo brand diperbarui');
+      showToast('Logo brand HD diperbarui!');
+    }
+
+    function saveThemeAndBanner() {
+      appState.config.bannerText = document.getElementById('adm-banner-text').value;
+      renderAllUI();
+      CraveRealTimeEngine.pushFullSync('Update Announcement Banner', appState.config.bannerText);
+      showToast('Banner & tema disimpan!');
+    }
+
+    async function updateAdminOrder(idx) {
+      const order = appState.orders[idx];
+      if (!order) return;
+      const newStatus = document.getElementById('ord-status-' + idx).value;
+      const newResi = document.getElementById('ord-resi-' + idx).value.trim();
+
+      order.status = newStatus;
+      order.trackingInfo = newResi;
+      CraveRealTimeEngine.saveLocalCache();
+
+      await CraveRealTimeEngine.postToCloud({
+        action: 'updateOrderStatus',
+        orderId: order.id,
+        status: newStatus,
+        trackingInfo: newResi
+      });
+      showToast(`Status & Resi #${order.id} diperbarui real-time!`);
+    }
+
+    async function handleQrisUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const base64 = await compressImageToBase64(file, 500, 0.85);
+      appState.config.qrisImg = base64;
+      const prev = document.getElementById('adm-qris-preview');
+      prev.src = base64;
+      prev.classList.remove('hidden');
+      document.getElementById('adm-qris-placeholder').classList.add('hidden');
+      showToast('Gambar QRIS siap disimpan!');
+    }
+
+    async function saveAdminSettings(e) {
+      e.preventDefault();
+      let waRaw = document.getElementById('adm-set-wa').value.replace(/\D/g, '');
+      if (waRaw.startsWith('0')) waRaw = '62' + waRaw.slice(1);
+
+      appState.config.whatsapp = waRaw;
+      appState.config.adminPin = document.getElementById('adm-set-pin').value.trim() || '2026';
+      appState.config.seoTitle = document.getElementById('adm-set-seo-title').value.trim();
+      appState.config.seoDesc = document.getElementById('adm-set-seo-desc').value.trim();
+      appState.config.bank1Name = document.getElementById('adm-bank1-name').value.trim();
+      appState.config.bank1Acc = document.getElementById('adm-bank1-acc').value.trim();
+      appState.config.bank1Holder = document.getElementById('adm-bank1-holder').value.trim();
+      appState.config.bank2Name = document.getElementById('adm-bank2-name').value.trim();
+      appState.config.bank2Acc = document.getElementById('adm-bank2-acc').value.trim();
+      appState.config.bank2Holder = document.getElementById('adm-bank2-holder').value.trim();
+      appState.config.ewalletInfo = document.getElementById('adm-ewallet-info').value.trim();
+
+      renderAllUI();
+      await CraveRealTimeEngine.pushFullSync('Update Kontak WA, SEO & Pembayaran', 'WA: ' + waRaw);
+      showToast('Pengaturan WA, SEO & Pembayaran tersimpan permanen di Cloud!');
+    }
+
+    async function triggerManualFullSync() {
+      await CraveRealTimeEngine.pushFullSync('Sinkronisasi Manual Admin', 'Memaksa sinkronisasi penuh dari Dashboard');
+      await CraveRealTimeEngine.pullFullState(false);
+      showToast('Sinkronisasi penuh selesai!');
+    }
+
+    // Boot Application
+    window.addEventListener('DOMContentLoaded', () => {
+      renderAllUI();
+      CraveRealTimeEngine.init();
+    });
+  </script>
+</body>
+</html>
