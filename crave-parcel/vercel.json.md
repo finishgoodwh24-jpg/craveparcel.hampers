@@ -1,12 +1,24 @@
 {
-  "version": 2,
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, proxy-revalidate" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
-      ]
-    }
-  ]
+
+&nbsp; "version": 2,
+
+&nbsp; "headers": \[
+
+&nbsp;   {
+
+&nbsp;     "source": "/api/(.\*)",
+
+&nbsp;     "headers": \[
+
+&nbsp;       { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, proxy-revalidate" },
+
+&nbsp;       { "key": "Access-Control-Allow-Origin", "value": "\*" }
+
+&nbsp;     ]
+
+&nbsp;   }
+
+&nbsp; ]
+
 }
+
